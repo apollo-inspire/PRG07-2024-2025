@@ -17,7 +17,7 @@ op iOS naar `UIButton`.
 Expo is een ontwikkelomgeving en toolset die het werken met React Native makkelijker maakt.
 
 De Expo Go-app maakt het mogelijk om een app eenvoudig op de telefoon te bekijken, inclusief *live update* 
-terwijl `console.log`s op je PC te lezen zijn.
+terwijl `console.log`s op je PC te lezen zijn. Gebruik dit voor debugging.
 
 ## TSX vs JSX
 De officiële documentatie van Expo gebruikt tegenwoordig TypeScript (`.tsx` bestanden), terwijl wij in deze 
@@ -28,9 +28,35 @@ Als je documentatie tegenkomt met TypeScript-code (Bijv. `:string`), kun je deze
 JavaScript door de type-aanduidingen weg te laten.
 
 
+#### Opdracht
+Installatie // TODO: installatiestappen toevoegen of link naar Expo
 
-basis componenten
+
+### UI - output
+View https://reactnative.dev/docs/view 
+Tekst https://reactnative.dev/docs/text 
+
+### Styles
+https://reactnative.dev/docs/style 
+
 stylesheets
-herhaling useState
 
-Opdrachten: Teller, quote, kleurenkiezer, nabouwen ontwerp, toevoegen darkmode switch
+### UI - input
+Button https://reactnative.dev/docs/button
+Pressable https://reactnative.dev/docs/pressable 
+
+
+#### Opdracht
+Teller
+
+#### Opdracht
+quote (misschien even een JSON chatgpt'en die en met random een quote kiezen)
+
+#### Opdracht
+kleurenkiezer (druk op knop voor andere achtergrondkleur, loop)
+
+#### Opdracht
+nabouwen ontwerp
+
+#### Opdracht
+toevoegen darkmode switch
