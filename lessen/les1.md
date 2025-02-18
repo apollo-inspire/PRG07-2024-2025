@@ -1,8 +1,6 @@
 # Les 1
 
-## Deel 1
-Herhaling / verdieping JS
-Opdrachten in de vorm van 'puzzels'
+## JavaScript
 
 Ternary & nullish coalescing operators
 Optional chaining
@@ -16,12 +14,15 @@ Try/catch
 Fetch
 Await/async
 
+### Opdrachten
+Opdrachten in de vorm van 'puzzels' waarin technieken terugkomen
 
-## Deel 2
+## Front-end Frameworks
+Werking van een framework/useState 
+
+
+### Opdrachten
 Om meer inzicht te krijgen in de werking van een framework, gaan we zelf...
-
 case: mini-react
 
 
-Werking van een framework/useState
-Opdracht zoals vorig jaar of in stappen aanbieden
