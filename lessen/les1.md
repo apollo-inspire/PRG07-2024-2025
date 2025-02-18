@@ -14,14 +14,14 @@ Try/catch
 Fetch
 Await/async
 
-### Opdrachten
+### Opdracht
 Opdrachten in de vorm van 'puzzels' waarin technieken terugkomen
 
 ## Front-end Frameworks
 Werking van een framework/useState 
 
 
-### Opdrachten
+### Opdracht
 Om meer inzicht te krijgen in de werking van een framework, gaan we zelf...
 case: mini-react
 
