@@ -1,7 +1,7 @@
 # Les 6
 
-## Deel 1
+## Showcase
 Showcase Antwan en mobile specifieke onderwerpen
 
-## Deel 2
+## Eindopdracht
 Verder met eindopdracht
