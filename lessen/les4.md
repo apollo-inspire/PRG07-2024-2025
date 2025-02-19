@@ -8,8 +8,21 @@ https://reactnavigation.org/docs/getting-started
 Stack navigator https://reactnavigation.org/docs/stack-navigator
 Bottom tabs https://reactnavigation.org/docs/bottom-tab-navigator
 
-// TODO: AsyncStorage verwijderd => alternatief voor persistent data? https://omidioraemmanuel.medium.com/alternative-to-react-native-async-storage-ba280024a023
-AsyncStorage https://reactnative.dev/docs/asyncstorage
+<!--
+Expo Secure Storage
+https://docs.expo.dev/versions/latest/sdk/securestore/
+
+Standaard config is genoeg om als storage te gebruiken
+
+SecureStore.setItemAsync(key, value);
+SecureStore.getItemAsync(key);
+-->
+
+AsyncStorage
+AsyncStorage.setItem('my-key', value) / getItem('my-key);
+Alleen stringdata => stringify
+
+https://react-native-async-storage.github.io/async-storage/docs/usage/
 
 # Opdracht
 kleine oefenopdracht met invoer en storage 
