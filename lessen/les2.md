@@ -70,7 +70,7 @@ Maak een App met één Button, en achtergrondkleur wit.
 * Voeg toe dat de button zelf ook van kleur verandert
 
 #### Opdracht
-Maak een app om een [willekeurige quote]("../assets/quotes.json") op te halen en te tonen.
+Maak een app om een [willekeurige quote](../assets/quotes.json) op te halen en te tonen.
 * Er is alleen een load/refresh-knop (gebruik hiervoor geen Button component)
 * Zorg dat de app er netjes uitzien
 
