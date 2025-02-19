@@ -27,11 +27,6 @@ TypeScript lijkt erg op JavaScript, maar voegt daaraan typedeclaraties (en contr
 Als je documentatie tegenkomt met TypeScript-code (Bijv. `:string`), kun je deze meestal eenvoudig omzetten naar 
 JavaScript door de type-aanduidingen weg te laten.
 
-
-#### Opdracht
-Installatie // TODO: installatiestappen toevoegen of link naar Expo
-
-
 ### UI - output
 View https://reactnative.dev/docs/view 
 Tekst https://reactnative.dev/docs/text 
@@ -45,6 +40,10 @@ stylesheets
 Button https://reactnative.dev/docs/button
 Pressable https://reactnative.dev/docs/pressable 
 
+#### Opdracht
+Maak je eerste expo app door de [installatie van les 2](../guides/installatie.md) te volgen.
+* Test de app op je telefoon
+* Verander de standaard tekst naar 'Hello World', of een eigen creatieve tekst.
 
 #### Opdracht
 Maak een app waarmee je mensen kunt tellen die ergens in en uit lopen (bijvoorbeeld omdat er maar
