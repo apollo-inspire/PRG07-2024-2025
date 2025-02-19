@@ -10,7 +10,10 @@ https://reactnative.dev/docs/using-a-listview
 
 
 #### Opdracht
-2 schermen, data van ene naar andere scherm
+Maak een app met 2 schermen, met behulp van een stack navigator.
+* Een button op scherm 1 opent scherm 2
+* Voeg een tweede button en een counter toe
+* Toon op scherm 2 de waarde van de counter, door deze mee te sturen als param met de navigatie
 
 #### Opdracht
 2 schermen, statische lijst + gegevens doorsturen uit die lijst als je klikt
