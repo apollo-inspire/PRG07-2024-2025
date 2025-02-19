@@ -9,6 +9,7 @@
   - [Front-end Frameworks](#front-end-frameworks)
     - [Opdracht](#opdracht)
 
+<br><br>
 
 # JavaScript
 
