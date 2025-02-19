@@ -47,13 +47,35 @@ Pressable https://reactnative.dev/docs/pressable
 
 
 #### Opdracht
-Teller
+Maak een app waarmee je mensen kunt tellen die ergens in en uit lopen (bijvoorbeeld omdat er maar
+maximaal 100 mensen tegelijk aanwezig mogen zijn van de brandweer).
+
+* Je hebt de knoppen +1, -1, en reset
+* De teller mag nooit kleiner dan 0 worden
+* Toon een alert als iemand probeert de teller kleiner dan 0 te maken
+* Zorg dat de app er netjes uitzien
+
+Gebruik ```console.log``` om de flow van je app te debuggen.
+
+> Klaar? Lukt het je ook om een progressbar van 0-100 toe te voegen?
+
+Nuttige links: [Text](https://reactnative.dev/docs/text), [Button](https://reactnative.dev/docs/button),
+[useState](https://react.dev/reference/react/useState), [style](https://reactnative.dev/docs/style),
+[alert](https://reactnative.dev/docs/alert), [Progress](https://www.npmjs.com/package/react-native-progress)
 
 #### Opdracht
-quote (misschien even een JSON chatgpt'en die en met random een quote kiezen)
+Maak een App met één Button, en achtergrondkleur wit. 
+* De knop verandert de achtergrondkleur
+* Dit gaat in een vast patroon, dat herhaalt
+* Voeg toe dat de button zelf ook van kleur verandert
 
 #### Opdracht
-kleurenkiezer (druk op knop voor andere achtergrondkleur, loop)
+Maak een app om een [willekeurige quote]("../assets/quotes.json") op te halen en te tonen.
+* Er is alleen een load/refresh-knop (gebruik hiervoor geen Button component)
+* Zorg dat de app er netjes uitzien
+
+Nuttige links: [Pressable](https://reactnative.dev/docs/pressable),
+[fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
 #### Opdracht
 nabouwen ontwerp
