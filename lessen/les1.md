@@ -118,9 +118,9 @@ bij veranderingen. Of `useEffect` om code te laten uitvoeren op bepaalde momente
 Om meer inzicht te krijgen in de werking van een framework, ga je uitzoeken hoe een mini-framework gebaseerd op React
 werkt, en ga je een hook-method schrijven voor dit framework.
 
-Download de startcode, maar run het nog niet: https://github.com/HR-CMGT/PRG07-react-mini
+Download de startcode, maar run het project nog niet: https://github.com/HR-CMGT/PRG07-react-mini
 
-1. Bekijk index.html. Wat is het id van de body? Kan je vinden waar dit id voor gebruikt wordt?
+1. Bekijk index.html. Wat is het id van de body? Kan je vinden waar dit id gebruikt wordt?
 2. Zoek nu uit hoe het framework werkt. Dit doe je door de flow van het programma te volgen. Begin in het script
    main.js, en maak een tekening van de volgorde waarin functies aangeroepen worden en met welke argumenten.
 3. Wat denk je dat het resultaat is?
@@ -137,7 +137,8 @@ Download de startcode, maar run het nog niet: https://github.com/HR-CMGT/PRG07-r
    `setCounter` natuurlijk `undefined`.
 8. Zorg nu dat je `useState` ook een setter returnt. Dit is een functie die opgeslagen waarde verandert en daarna de
    functie `reRender` aanroept. Het is belangrijk dat de waarde niet in `useState` wordt opgeslagen, maar globaal (
-   bedenk waarom!). Return de waarde en de setter, en gebruik deze om met de button de `count` op te hogen.
+   bedenk waarom!). Return de waarde en de setter, en gebruik deze om met de button de `count` op te hogen (
+   `count + 1`).
 9. Lukt het ook om de setter zo te maken dat je niet alleen een nieuwe waarde maar ook een functie kunt meegegeven, net
    als in React, dus: `(x) => (x + 1)`?
 10. Deze `useState` kan maar één waarde bijhouden. Denk na over hoe je `useState` voor meerdere variabelen zou kunnen
