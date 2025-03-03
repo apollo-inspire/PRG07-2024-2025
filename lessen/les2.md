@@ -114,7 +114,8 @@ Bouw vervolgens een React Native-app met een enkele **Button** die de achtergron
 
 [Installeer](../guides/installatie.md) een nieuwe Expo app. 
 <br>
-Bouw vervolgens een React Native-app die bij elke druk op een knop een [willekeurige quote](../assets/quotes.json) ophaalt en toont.
+Bouw vervolgens een React Native-app die bij elke druk op een knop een willekeurige quote ophaalt en toont.
+[Klik hier voor de quotes, klik vervolgens op "Raw" en kopieer dan de URL](../assets/quotes.json)
 
 - De app bevat een **Pressable** knop waarmee je een nieuwe quote kunt laden.
 - De quote wordt dynamisch bijgewerkt zodra de knop wordt ingedrukt.
