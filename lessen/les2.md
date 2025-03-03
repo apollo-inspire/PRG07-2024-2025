@@ -5,16 +5,16 @@
 -->
 
 - [Les 2](#les-2)
-    - [React Native](#react-native)
-    - [Expo](#expo)
-    - [TSX vs JSX](#tsx-vs-jsx)
-    - [Opdrachten](#opdrachten)
-        - [Opdracht 1](#opdracht-1)
-        - [Opdracht 2](#opdracht-2)
-        - [Opdracht 3](#opdracht-3)
-        - [Opdracht 4](#opdracht-4)
-        - [Opdracht 5](#opdracht-5)
-        - [Opdracht 6](#opdracht-6)
+  - [React Native](#react-native)
+  - [Expo](#expo)
+  - [TSX vs JSX](#tsx-vs-jsx)
+  - [Opdrachten](#opdrachten)
+    - [Opdracht 1](#opdracht-1)
+    - [Opdracht 2](#opdracht-2)
+    - [Opdracht 3](#opdracht-3)
+    - [Opdracht 4](#opdracht-4)
+    - [Opdracht 5](#opdracht-5)
+    - [Opdracht 6](#opdracht-6)
 
 <br><br>
 

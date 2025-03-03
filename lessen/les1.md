@@ -2,12 +2,12 @@
 
 - [Les 1](#les-1)
 - [JavaScript](#javascript)
-    - [Opdracht 1: Mini-puzzels](#opdracht-1-mini-puzzels)
-        - [Werkwijze](#werkwijze)
-    - [Opdracht 2: Overzicht van Emoji's 🤯](#opdracht-2-overzicht-van-emojis-)
-        - [Opdrachten](#opdrachten)
-    - [Front-end Frameworks](#front-end-frameworks)
-        - [Opdracht](#opdracht)
+  - [Opdracht 1: Mini-puzzels](#opdracht-1-mini-puzzels)
+    - [Werkwijze](#werkwijze)
+  - [Opdracht 2: Overzicht van Emoji's 🤯](#opdracht-2-overzicht-van-emojis-)
+    - [Opdrachten](#opdrachten)
+  - [Frameworks](#frameworks)
+      - [Opdracht](#opdracht)
 
 <br><br>
 
