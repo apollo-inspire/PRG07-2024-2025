@@ -1,17 +1,15 @@
 # Les 1
 
 - [Les 1](#les-1)
-- [JavaScript](#javascript)
+  - [JavaScript](#javascript)
   - [Opdracht 1: Mini-puzzels](#opdracht-1-mini-puzzels)
-    - [Werkwijze](#werkwijze)
   - [Opdracht 2: Overzicht van Emoji's 🤯](#opdracht-2-overzicht-van-emojis-)
-    - [Opdrachten](#opdrachten)
   - [Frameworks](#frameworks)
-      - [Opdracht](#opdracht)
+    - [Opdracht - Mini React](#opdracht---mini-react)
 
 <br><br>
 
-# JavaScript
+## JavaScript
 
 **AANTEKENING: onderwerpen om te herhalen:**
 
@@ -35,7 +33,9 @@ Deze opdracht bestaat uit een reeks **JavaScript mini-puzzels**, waarbij elke pu
 techniek binnen JavaScript. Dit is een oefening om belangrijke concepten te herhalen en toe te passen in kleine,
 gerichte codevoorbeelden.
 
-### Werkwijze
+<br>
+
+**Werkwijze**
 
 1. Kopieer de [startcode van de puzzels](../startcode/les1/puzzels.js) naar een eigen document.
 2. Elke puzzel begint met een titel en een korte uitleg in **commentaar**.
@@ -48,7 +48,7 @@ gerichte codevoorbeelden.
 ## Opdracht 2: Overzicht van Emoji's 🤯
 
 Je gaat een kleine Javascript applicatie bouwen die je via nodeJS aan
-gaat roepen. In deze applicatie ga je een lijst tonen van beschikbare emojis met
+gaat roepen. In deze applicatie ga je een lijst tonen van beschikbare emoji's met
 hun bijbehorende categorie, htmlCode en unicode. Je geeft 2 argumenten mee
 aan dit script die invloed hebben op de output.
 
@@ -74,9 +74,11 @@ meegegeven worden (pad van Node, en pad van het aangeroepen bestand),
 eraf gehaald worden en je alleen de argumenten overhoudt die voor jou
 relevant zijn.
 
-### Opdrachten
+<br>
 
-1. Maak een array met objecten aan waarin je een lijst met emojis te zien krijgt.
+**Werkwijze**
+
+1. Maak een array met objecten aan waarin je een lijst met emoji's te zien krijgt.
     * Zorg dat je minimaal 10 items hebt met verschillende waardes. Hou hierbij de structuur aan zoals in
       de [API](https://emojihub.yurace.pro/api/all)
 2. Loop door de informatie heen met een `for...of` loop en console.log de waardes. Log de eigenschappen
@@ -93,7 +95,7 @@ relevant zijn.
 6. Schrijf de `fetch` om door gebruik te maken van `async`/`await` i.p.v. `.then()`/`.catch()`.
 7. Bedenk een slimme manier om beide scenario's (eigen data & API-data) dezelfde filter logica
    te laten gebruiken en dubbele code te voorkomen.
-8. Toon als category 'list' gebruikt wordt een lijst met alle beschikbare categorieën. Je output zijn nu dus geen emojis
+8. Toon als category 'list' gebruikt wordt een lijst met alle beschikbare categorieën. Je output zijn nu dus geen emoji's
    meer,
    maar alle categorieën die bestaan.
 
@@ -113,7 +115,7 @@ bij veranderingen. Of `useEffect` om code te laten uitvoeren op bepaalde momente
 
 <br><br>
 
-#### Opdracht
+### Opdracht - Mini React
 
 Om meer inzicht te krijgen in de werking van een framework, ga je uitzoeken hoe een mini-framework gebaseerd op React
 werkt, en ga je een hook-method schrijven voor dit framework.

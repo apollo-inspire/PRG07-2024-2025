@@ -9,10 +9,10 @@
   - [Expo](#expo)
   - [TSX vs JSX](#tsx-vs-jsx)
   - [Opdrachten](#opdrachten)
-    - [Opdracht 1](#opdracht-1)
-    - [Opdracht 2](#opdracht-2)
-    - [Opdracht 3](#opdracht-3)
-    - [Opdracht 4](#opdracht-4)
+    - [Opdracht 1 - Hello World](#opdracht-1---hello-world)
+    - [Opdracht 2 - Bezoekersteller](#opdracht-2---bezoekersteller)
+    - [Opdracht 3 - Wisselende Achtergrondkleur](#opdracht-3---wisselende-achtergrondkleur)
+    - [Opdracht 4 - Random Quote Generator](#opdracht-4---random-quote-generator)
     - [Opdracht 5](#opdracht-5)
     - [Opdracht 6](#opdracht-6)
 
@@ -56,7 +56,7 @@ JavaScript door de type-aanduidingen weg te laten.
 
 ## Opdrachten
 
-### Opdracht 1
+### Opdracht 1 - Hello World
 
 Tijdens deze les zul je meerdere opdrachten uitvoeren. Voor iedere opdracht voer je opnieuw onderstaande installatie
 uit,
@@ -69,20 +69,25 @@ Maak je eerste Expo app door de [installatie van les 2](../guides/installatie.md
 
 <br><br>
 
-### Opdracht 2
+### Opdracht 2 - Bezoekersteller
 
-[Installeer](../guides/installatie.md) een nieuwe Expo app. Maak een app waarmee je mensen kunt tellen die ergens in en
-uit lopen (bijvoorbeeld omdat er maar
-maximaal 100 mensen tegelijk aanwezig mogen zijn van de brandweer).
+[Installeer](../guides/installatie.md) een nieuwe Expo app.
+<br>
+Bouw vervolgens een React Native-app waarmee je het aantal mensen kunt bijhouden dat een ruimte in- en uitloopt (bijvoorbeeld omdat er maar
+maximaal 200 mensen tegelijk aanwezig mogen zijn van de brandweer).
 
-* Je hebt de knoppen +1, -1, en reset
-* De teller mag nooit kleiner dan 0 worden
-* Toon een alert als iemand probeert de teller kleiner dan 0 te maken
-* Zorg dat de app er netjes uitzien
+- De app bevat drie knoppen:
+  - **+1** om een persoon toe te voegen.
+  - **-1** om een persoon te verwijderen.
+  - **Reset** om de teller op 0 te zetten.
+- De teller mag nooit kleiner dan **0** worden.
+- Als een gebruiker probeert de teller onder **0** te verlagen, toon dan een **alert** met een waarschuwingsbericht.
+- Zorg dat de app er **visueel aantrekkelijk** uitziet.
 
 Gebruik ```console.log``` om de flow van je app te debuggen.
 
-> Klaar? Lukt het je ook om een progressbar van 0-100 toe te voegen?
+> Klaar? Voeg ook een **progressbar** toe die de capaciteit van 0% tot 100% weergeeft? De progressbar moet dynamisch de huidige waarde tonen.
+
 
 Nuttige
 links: [View](https://reactnative.dev/docs/view), [Text](https://reactnative.dev/docs/text), [Button](https://reactnative.dev/docs/button),
@@ -91,24 +96,29 @@ links: [View](https://reactnative.dev/docs/view), [Text](https://reactnative.dev
 
 <br><br>
 
-### Opdracht 3
+### Opdracht 3 - Wisselende Achtergrondkleur
 
-[Installeer](../guides/installatie.md) een nieuwe Expo app. Maak een app met één Button en stel de achtergrondkleur in
-op wit.
+[Installeer](../guides/installatie.md) een nieuwe Expo app.
+<br>
+Bouw vervolgens een React Native-app met een enkele **Button** die de achtergrondkleur van het scherm verandert in een **vast patroon**. Zodra de reeks kleuren is doorlopen, begint deze opnieuw.
 
-* De knop verandert de achtergrondkleur
-* Dit gaat in een vast patroon, dat herhaalt
-* Voeg toe dat de button zelf ook van kleur verandert
+- Het scherm heeft een **witte achtergrond** bij de start.
+- Er is één **Button** die de achtergrondkleur verandert.
+- De kleuren veranderen in een **vaste volgorde** en herhalen zich zodra de reeks is doorlopen.
+- De **Button zelf verandert ook van kleur** bij elke klik, los van de achtergrondkleur.
+
 
 <br><br>
 
-### Opdracht 4
+### Opdracht 4 - Random Quote Generator
 
-[Installeer](../guides/installatie.md) een nieuwe Expo app. Maak een app om
-een [willekeurige quote](../assets/quotes.json) op te halen en te tonen.
+[Installeer](../guides/installatie.md) een nieuwe Expo app. 
+<br>
+Bouw vervolgens een React Native-app die bij elke druk op een knop een [willekeurige quote](../assets/quotes.json) ophaalt en toont.
 
-* Er is alleen een load/refresh-knop (gebruik hiervoor het Pressable component)
-* Zorg dat de app er netjes uitzien door de knop en de quote te stylen
+- De app bevat een **Pressable** knop waarmee je een nieuwe quote kunt laden.
+- De quote wordt dynamisch bijgewerkt zodra de knop wordt ingedrukt.
+- Zorg voor een **stijlvolle vormgeving**, waarbij zowel de knop als de tekst duidelijk en aantrekkelijk worden weergegeven.
 
 Nuttige links: [Pressable](https://reactnative.dev/docs/pressable),
 [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
