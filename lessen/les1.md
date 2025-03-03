@@ -2,12 +2,12 @@
 
 - [Les 1](#les-1)
 - [JavaScript](#javascript)
-  - [Opdracht 1: Mini-puzzels](#opdracht-1-mini-puzzels)
-    - [Werkwijze](#werkwijze)
-  - [Opdracht 2: Overzicht van Emoji's 🤯](#opdracht-2-overzicht-van-emojis-)
-    - [Opdrachten](#opdrachten)
-  - [Front-end Frameworks](#front-end-frameworks)
-    - [Opdracht](#opdracht)
+    - [Opdracht 1: Mini-puzzels](#opdracht-1-mini-puzzels)
+        - [Werkwijze](#werkwijze)
+    - [Opdracht 2: Overzicht van Emoji's 🤯](#opdracht-2-overzicht-van-emojis-)
+        - [Opdrachten](#opdrachten)
+    - [Front-end Frameworks](#front-end-frameworks)
+        - [Opdracht](#opdracht)
 
 <br><br>
 
@@ -30,6 +30,7 @@
 <br><br>
 
 ## Opdracht 1: Mini-puzzels
+
 Deze opdracht bestaat uit een reeks **JavaScript mini-puzzels**, waarbij elke puzzel zich richt op een specifieke
 techniek binnen JavaScript. Dit is een oefening om belangrijke concepten te herhalen en toe te passen in kleine,
 gerichte codevoorbeelden.
@@ -76,12 +77,14 @@ relevant zijn.
 ### Opdrachten
 
 1. Maak een array met objecten aan waarin je een lijst met emojis te zien krijgt.
-    * Zorg dat je minimaal 10 items hebt met verschillende waardes. Hou hierbij de structuur aan zoals in de [API](https://emojihub.yurace.pro/api/all)
+    * Zorg dat je minimaal 10 items hebt met verschillende waardes. Hou hierbij de structuur aan zoals in
+      de [API](https://emojihub.yurace.pro/api/all)
 2. Loop door de informatie heen met een `for...of` loop en console.log de waardes. Log de eigenschappen
    per entry door middel van template strings.
 3. Gebruik `destructuring` om de arguments op regel 1 van je script op te halen en gelijk om te zetten naar variabelen
    met logische namen
-4. Plaats voor de `for...of` loop een `.filter` om de data te filteren op category. Gebruik de arrow notatie voor je callback functie.
+4. Plaats voor de `for...of` loop een `.filter` om de data te filteren op category. Gebruik de arrow notatie voor je
+   callback functie.
     * Gebruik als dit werkt een if statement om te voorkomen dat de data gefilterd wordt wanneer de category 'all' is.
     * Vervang daarna het if statement door de `ternary operator`.
 5. Gebruik `fetch` om de data van de daadwerkelijke API in te laden.
@@ -90,18 +93,54 @@ relevant zijn.
 6. Schrijf de `fetch` om door gebruik te maken van `async`/`await` i.p.v. `.then()`/`.catch()`.
 7. Bedenk een slimme manier om beide scenario's (eigen data & API-data) dezelfde filter logica
    te laten gebruiken en dubbele code te voorkomen.
-8. Toon als category 'list' gebruikt wordt een lijst met alle beschikbare categorieën. Je output zijn nu dus geen emojis meer,
+8. Toon als category 'list' gebruikt wordt een lijst met alle beschikbare categorieën. Je output zijn nu dus geen emojis
+   meer,
    maar alle categorieën die bestaan.
 
 <br><br>
 
-## Front-end Frameworks
-Werking van een framework/useState 
+## Frameworks
+
+Frameworks zoals React (en Laravel) nemen veel werk uit handen bij het ontwikkelen van applicaties, doordat
+standaardfunctionaliteiten automatisch voor je geregeld worden.
+
+Je code draait binnen het framework, wat betekent dat je niet zelf je code (functies) aanroept maar dat deze
+door het framework worden aangeroepen. Daarom moet je je aan de regels en conventies van het framework houden.
+
+Soms wil je dat het framework specifieke taken voor je uitvoert die niet standaard worden afgehandeld. Hiervoor kun je
+gebruik maken van *hooks*. Zoals `useState` om een waarde op te slaan en de applicatie automatisch te laten bijwerken
+bij veranderingen. Of `useEffect` om code te laten uitvoeren op bepaalde momenten.
 
 <br><br>
 
-### Opdracht
-Om meer inzicht te krijgen in de werking van een framework, gaan we zelf...
-case: mini-react
+#### Opdracht
+
+Om meer inzicht te krijgen in de werking van een framework, ga je uitzoeken hoe een mini-framework gebaseerd op React
+werkt, en ga je een hook-method schrijven voor dit framework.
+
+Download de startcode, maar run het nog niet: https://github.com/HR-CMGT/PRG07-react-mini
+
+1. Bekijk index.html. Wat is het id van de body? Kan je vinden waar dit id voor gebruikt wordt?
+2. Zoek nu uit hoe het framework werkt. Dit doe je door de flow van het programma te volgen. Begin in het script
+   main.js, en maak een tekening van de volgorde waarin functies aangeroepen worden en met welke argumenten.
+3. Wat denk je dat het resultaat is?
+4. Installeer de node modules (`npm install`) en run het project (`npm run dev`). Klopt je antwoord van vraag 3?
+5. React maakt gebruik van JSX. Onderwater creëren JSX-tags *elementen* (m.b.v. de functie `createElement`) met een
+   type (de html-tag), props (object met attributen, en eventuele children (child elementen of tekst content).
+   React-mini heeft helaas nog geen JSX ondersteuning dus we moeten
+   `createElement` zelf aanroepen om html en functie elementen te maken. Voeg aan de App een `main` toe met daarin een
+   `section` met een `h1` en een `p`, om hiermee te oefenen.
+6. Voeg ook een `button` toe met een alert. Tip: `onclick` is een property van button.
+7. Geef React-mini een `useState` functie die en initiele waarde als parameter verwacht en deze opslaat. Daarna returnt
+   hij deze waarde. Gebruik deze functie (`const [counter, setCounter] = useState(0);`) om een counter in de App te
+   tonen, die nog niet werkt maar altijd de initiele waarde 0 toont. NB. Omdat we alleen een waarde returnen, is
+   `setCounter` natuurlijk `undefined`.
+8. Zorg nu dat je `useState` ook een setter returnt. Dit is een functie die opgeslagen waarde verandert en daarna de
+   functie `reRender` aanroept. Het is belangrijk dat de waarde niet in `useState` wordt opgeslagen, maar globaal (
+   bedenk waarom!). Return de waarde en de setter, en gebruik deze om met de button de `count` op te hogen.
+9. Lukt het ook om de setter zo te maken dat je niet alleen een nieuwe waarde maar ook een functie kunt meegegeven, net
+   als in React, dus: `(x) => (x + 1)`?
+10. Deze `useState` kan maar één waarde bijhouden. Denk na over hoe je `useState` voor meerdere variabelen zou kunnen
+    werlen. Je hoeft dit niet te programmeren.
 
 
