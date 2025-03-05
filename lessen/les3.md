@@ -8,7 +8,7 @@
     - [List Views](#list-views)
   - [Opdracht 1: Navigeren tussen twee schermen](#opdracht-1-navigeren-tussen-twee-schermen)
   - [Opdracht 2: Navigeren vanuit een statische lijst](#opdracht-2-navigeren-vanuit-een-statische-lijst)
-  - [Opdracht](#opdracht)
+  - [Opdracht 3: Navigeren vanuit een dynamische lijst](#opdracht-3-navigeren-vanuit-een-dynamische-lijst)
 
 ## Navigatie in React Native
 
@@ -72,9 +72,9 @@ Bouw een React Native-app met twee schermen en gebruik een **Stack Navigator** o
 **Functionaliteiten**
 
 - Scherm 1 bevat een **counter** en een **button** om de waarde van de counter te verhogen.
-- Scherm 1 bevat daarnaast een **button** die **Scherm 2** opent.
-- Wanneer je naar **Scherm 2** navigeert, wordt de **huidige waarde van de counter** als parameter meegestuurd.
-- Op **Scherm 2** wordt deze waarde weergegeven.
+- Scherm 1 bevat daarnaast een **button** die **scherm 2** opent.
+- Wanneer je naar **scherm 2** navigeert, wordt de **huidige waarde van de counter** als parameter meegestuurd.
+- Op **scherm 2** wordt deze waarde weergegeven.
 
 <br><br>
 
@@ -86,13 +86,22 @@ Bouw een React Native-app met twee schermen en een **statische lijst** met gegev
 **Functionaliteiten**
 
 - Maak of genereer een lijst met gegevens over een onderwerp naar keuze.
-- Toon op **Scherm 1** de gegevens in een `FlatList`.
-- Wanneer een gebruiker op een item drukt moet **Scherm 2** geopend worden en de details van het geselecteerde item
+- Toon op **scherm 1** de gegevens in een `FlatList`.
+- Wanneer een gebruiker op een item drukt moet **scherm 2** geopend worden en de details van het geselecteerde item
   moeten als **parameter** worden meegegeven.
-- Geef de ontvangen gegevens weer op **Scherm 2**.
+- Geef de ontvangen gegevens weer op **scherm 2**.
 
 <br><br>
 
-## Opdracht
+## Opdracht 3: Navigeren vanuit een dynamische lijst
 
-2 schermen, lijst ophalen van notes/chess + detailpagina
+Bouw een React Native-app met twee schermen en een lijst met notes of chess spots op het eerste scherm. Gebruik een
+**Stack Navigator** om naar het tweede scherm te navigeren.
+
+**Functionaliteiten**
+
+- Haal de [notes](https://notes.basboot.nl/notes) of [chess spots](https://prg06-node-express.antwan.eu/spots/) op van
+  de webservice.
+- Toon op **scherm 1** de gegevens in een `FlatList`.
+- Wanneer een gebruiker op een item drukt moet **scherm 2** geopend worden.
+- Haal op **scherm 2** de details op van de geselecteerde note of chess spot en toon deze op het scherm.
