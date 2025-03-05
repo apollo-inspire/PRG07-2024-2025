@@ -78,7 +78,7 @@ relevant zijn.
 
 1. Maak een array met objecten aan waarin je een lijst met emojis te zien krijgt.
     * Zorg dat je minimaal 10 items hebt met verschillende waardes. Hou hierbij de structuur aan zoals in
-      de [API](https://emojihub.yurace.pro/api/all)
+      de [API](https://github.com/cheatsnake/emojihub/blob/master/emojistore/data/emojibase.json)
 2. Loop door de informatie heen met een `for...of` loop en console.log de waardes. Log de eigenschappen
    per entry door middel van template strings.
 3. Gebruik `destructuring` om de arguments op regel 1 van je script op te halen en gelijk om te zetten naar variabelen
