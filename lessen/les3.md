@@ -1,52 +1,82 @@
 # Les 3
 
-## Navigatie
+- [Les 3](#les-3)
+  - [Navigatie in React Native](#navigatie-in-react-native)
+    - [Stack Navigator](#stack-navigator)
+    - [Bottom Tabs Navigator](#bottom-tabs-navigator)
+  - [Lijsten in React Native](#lijsten-in-react-native)
+    - [List Views](#list-views)
+  - [Opdracht](#opdracht)
+  - [Opdracht](#opdracht-1)
+  - [Opdracht](#opdracht-2)
 
-Navigatie in React Native is vergelijkbaar met browserrouting in React, maar dan zonder URL's. In plaats van URL's
-geef je zelf namen aan de verschillende schermen, die je gebruikt om te navigeren.
 
-Bij navigeren kun je data meegeven en ontvangen, bijvoorbeeld om details van een item door te sturen naar een volgend
-scherm.
+## Navigatie in React Native
 
-Een `Stack Navigator` 'stapelt' schermen op elkaar, zodat je eenvoudig terug kunt navigeren. Dit lijkt op een terug-knop
-in de browser. Je kunt de Stack Navigator gebruiken om te zorgen dat een gebruiker in een vast volgorde door de app
-gaat.<br>
+In React Native werkt navigatie anders dan in een browser. Er zijn geen URL’s zoals op het web, maar in plaats daarvan
+gebruik je schermen. Elk scherm heeft een naam, en je kunt daartussen navigeren.
+
+Bij navigeren kun je ook **data meegeven**. Bijvoorbeeld: als je een lijst met producten hebt, kun je bij een klik op
+een product de details doorsturen naar het volgende scherm.
+
+### Stack Navigator
+
+Een `Stack Navigator` werkt als een stapel schermen, waarbij alleen het bovenste scherm zichtbaar is voor de gebruiker.
+Wanneer je naar een nieuw scherm gaat, wordt dit **bovenop de stapel** geplaatst. Het vorige scherm blijft eronder staan
+en verdwijnt niet uit het geheugen. Wanneer je op de terug-knop drukt, dan wordt het bovenste scherm **weggehaald**, en
+zie je dus weer het vorige scherm.
+
+Dit is vergelijkbaar met hoe een browsergeschiedenis werkt: als je een nieuwe pagina opent, kun je met de terug-knop
+weer naar de vorige pagina.
+
 https://reactnavigation.org/docs/stack-navigator
 
-Een `Bottom Tabs Navigator` creëert een navigatiebalk onderaan het scherm met tabbladen, wat in veel mobiele apps
-gebruikt wordt. Hierbij kan je geen vaste volgorde afdwingen, wel is het mogelijk om binnen een Tab een Stack Navigator
-te gebruiken.<br>
-https://reactnavigation.org/docs/bottom-tab-navigator
+### Bottom Tabs Navigator
 
-## Lijsten
+Een `Bottom Tabs Navigator` maakt een navigatiebalk onderin het scherm met tabbladen. Dit zie je vaak in apps zoals
+Instagram of WhatsApp. Binnen elke tab zou je weer een Stack Navigator gebruiken als er binnen die tab tussen
+verschillende schermen genavigeerd moet kunnen worden. 🔗 https://reactnavigation.org/docs/bottom-tab-navigator
 
-Op mobiel is de schermruimte beperkt en er is standaard geen scrollmechanisme zoals bij webpagina’s. Als je meer content
-wilt tonen dan op één scherm past, gebruik je daarom een `ScrollView`.
+<br><br>
 
-Je zou gegevens uit een lijst kunnen tonen door een array te mappen naar `Text`-componenten binnen een `ScrollView`,
-maar dat is niet efficiënt bij grote lijsten.
+## Lijsten in React Native
 
-Voor betere performance van je app gebruik je een List View, omdat deze items alleen rendert als ze op het scherm
-zichtbaar zijn. Onzichtbare items worden automatisch verwijderd om geheugen te besparen.
+Een mobiele app heeft **geen oneindig groot scherm** en ook geen standaard scrollbar zoals in een webbrowser. Als je meer content wilt tonen dan op het scherm past, moet je zelf zorgen voor scroll-functionaliteit, bijvoorbeeld met een `ScrollView`.
 
-De `FlatList` gebruik je als alle items hetzelfde zijn, de `SectionList` als de items gegroepeerd zijn (per secties).
+Een `ScrollView` maakt scrollen mogelijk en werkt prima voor bijvoorbeeld tekstpagina’s. Maar als je een lijst met een onbekend aantal items wilt tonen, is een `ScrollView` minder geschikt. Dit komt omdat een `ScrollView` **alle** items in één keer laadt, zelfs als ze niet zichtbaar zijn. Bij lange lijsten kan dit veel geheugen verbruiken en je app trager maken. De oplossing hiervoor is om gebruikt maken van een `List View`.
 
-https://reactnative.dev/docs/scrollview<br>
-https://reactnative.dev/docs/safeareaview<br>
+### List Views
+
+Een `List View` is een geoptimaliseerde manier om lijsten weer te geven. In tegenstelling tot een `ScrollView` laadt een List View alleen de items in die op dat moment op het scherm zichtbaar zijn. Dit maakt het efficiënter en voorkomt onnodig geheugenverbruik.
+
+React Native biedt twee soorten List Views:
+
+- **`FlatList`** → Het standaardcomponent voor het weergeven van een lijst met items.  
+- **`SectionList`** → Voor een lijst met gegroepeerde items, zoals een alfabetische lijst met secties per letter.
+
+
+
+https://reactnative.dev/docs/scrollview<br> https://reactnative.dev/docs/safeareaview<br>
 https://reactnative.dev/docs/using-a-listview
 
-#### Opdracht
+<br><br>
+
+## Opdracht
 
 Maak een app met 2 schermen, met behulp van een stack navigator.
 
-* Een button op scherm 1 opent scherm 2
-* Voeg een tweede button en een counter toe
-* Toon op scherm 2 de waarde van de counter, door deze mee te sturen als param met de navigatie
+- Een button op scherm 1 opent scherm 2
+- Voeg een tweede button en een counter toe
+- Toon op scherm 2 de waarde van de counter, door deze mee te sturen als param met de navigatie
 
-#### Opdracht
+<br><br>
+
+## Opdracht
 
 2 schermen, statische lijst + gegevens doorsturen uit die lijst als je klikt
 
-#### Opdracht
+<br><br>
+
+## Opdracht
 
 2 schermen, lijst ophalen van notes/chess + detailpagina

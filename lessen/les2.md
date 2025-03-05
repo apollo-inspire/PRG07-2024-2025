@@ -24,7 +24,7 @@ React Native is een framework waarmee je mobiele apps kunt bouwen met JavaScript
 In plaats van HTML en CSS worden native UI-componenten gebruikt, waardoor de app eruitziet en aanvoelt
 als een echte native app.
 
-React Native werkt met een *bridge*, een tussenlaag die zorgt dat JavaScript de native API aan kan spreken.
+React Native werkt met een _bridge_, een tussenlaag die zorgt dat JavaScript de native API aan kan spreken.
 Hierdoor kan je met JavaScript direct communiceren met de functies van een mobiel besturingssysteem, zoals toegang
 tot de camera of GPS.
 
@@ -38,7 +38,7 @@ op iOS naar `UIButton`.
 
 Expo is een ontwikkelomgeving en toolset die het werken met React Native makkelijker maakt.
 
-De Expo Go-app maakt het mogelijk om een app eenvoudig op de telefoon te bekijken, inclusief *live update*
+De Expo Go-app maakt het mogelijk om een app eenvoudig op de telefoon te bekijken, inclusief _live update_
 terwijl `console.log`s op je PC te lezen zijn. Gebruik dit voor debugging.
 
 <br><br>
@@ -64,8 +64,8 @@ wat dus betekent dat je voor iedere opdracht een nieuwe app maakt.
 
 Maak je eerste Expo app door de [installatie van les 2](../guides/installatie.md) te volgen.
 
-* Test de app op je telefoon
-* Verander de standaard tekst naar 'Hello World', of een eigen creatieve tekst.
+- Test de app op je telefoon
+- Verander de standaard tekst naar 'Hello World', of een eigen creatieve tekst.
 
 <br><br>
 
@@ -84,10 +84,9 @@ maximaal 200 mensen tegelijk aanwezig mogen zijn van de brandweer).
 - Als een gebruiker probeert de teller onder **0** te verlagen, toon dan een **alert** met een waarschuwingsbericht.
 - Zorg dat de app er **visueel aantrekkelijk** uitziet.
 
-Gebruik ```console.log``` om de flow van je app te debuggen.
+Gebruik `console.log` om de flow van je app te debuggen.
 
 > Klaar? Voeg ook een **progressbar** toe die de capaciteit van 0% tot 100% weergeeft? De progressbar moet dynamisch de huidige waarde tonen.
-
 
 Nuttige
 links: [View](https://reactnative.dev/docs/view), [Text](https://reactnative.dev/docs/text), [Button](https://reactnative.dev/docs/button),
@@ -107,15 +106,14 @@ Bouw vervolgens een React Native-app met een enkele **Button** die de achtergron
 - De kleuren veranderen in een **vaste volgorde** en herhalen zich zodra de reeks is doorlopen.
 - De **Button zelf verandert ook van kleur** bij elke klik, los van de achtergrondkleur.
 
-
 <br><br>
 
 ### Opdracht 4 - Random Quote Generator
 
-[Installeer](../guides/installatie.md) een nieuwe Expo app. 
+[Installeer](../guides/installatie.md) een nieuwe Expo app.
 <br>
 Bouw vervolgens een React Native-app die bij elke druk op een knop een willekeurige quote ophaalt en toont.
-[Klik hier voor de quotes, klik vervolgens op "Raw" en kopieer dan de URL](../assets/quotes.json)
+Klik [hier](../assets/quotes.json) voor de quotes, klik vervolgens op "Raw" en kopieer dan de URL
 
 - De app bevat een **Pressable** knop waarmee je een nieuwe quote kunt laden.
 - De quote wordt dynamisch bijgewerkt zodra de knop wordt ingedrukt.

@@ -1,11 +1,11 @@
 # Les 1
 
 - [Les 1](#les-1)
-    - [JavaScript](#javascript)
-    - [Opdracht 1: Mini-puzzels](#opdracht-1-mini-puzzels)
-    - [Opdracht 2: Overzicht van Emoji's 🤯](#opdracht-2-overzicht-van-emojis-)
-    - [Frameworks](#frameworks)
-        - [Opdracht - Mini React](#opdracht---mini-react)
+  - [JavaScript](#javascript)
+  - [Opdracht 1: Mini-puzzels](#opdracht-1-mini-puzzels)
+  - [Opdracht 2: Overzicht van Emoji's 🤯](#opdracht-2-overzicht-van-emojis-)
+  - [Frameworks](#frameworks)
+    - [Opdracht - Mini React](#opdracht---mini-react)
 
 <br><br>
 
