@@ -5,16 +5,16 @@
 -->
 
 - [Les 2](#les-2)
-    - [React Native](#react-native)
-    - [Expo](#expo)
+  - [React Native](#react-native)
+  - [Expo](#expo)
     - [TSX vs JSX](#tsx-vs-jsx)
-    - [Opdrachten](#opdrachten)
-        - [Opdracht 1 - Hello World](#opdracht-1---hello-world)
-        - [Opdracht 2 - Bezoekersteller](#opdracht-2---bezoekersteller)
-        - [Opdracht 3 - Wisselende Achtergrondkleur](#opdracht-3---wisselende-achtergrondkleur)
-        - [Opdracht 4 - Random Quote Generator](#opdracht-4---random-quote-generator)
-        - [Opdracht 5](#opdracht-5)
-        - [Opdracht 6](#opdracht-6)
+  - [Opdrachten](#opdrachten)
+    - [Opdracht 1 - Hello World](#opdracht-1---hello-world)
+    - [Opdracht 2 - Bezoekersteller](#opdracht-2---bezoekersteller)
+    - [Opdracht 3 - Wisselende Achtergrondkleur](#opdracht-3---wisselende-achtergrondkleur)
+    - [Opdracht 4 - Random Quote Generator](#opdracht-4---random-quote-generator)
+    - [Opdracht 5 - Flexbox](#opdracht-5---flexbox)
+    - [Opdracht 6 - Darkmode](#opdracht-6---darkmode)
 
 <br><br>
 
@@ -43,7 +43,7 @@ terwijl `console.log`s op je PC te lezen zijn. Gebruik dit voor debugging.
 
 <br><br>
 
-## TSX vs JSX
+### TSX vs JSX
 
 De officiële documentatie van Expo gebruikt tegenwoordig TypeScript (`.tsx` bestanden), terwijl wij in deze
 cursus met JavaScript (`.jsx` bestanden) werken.

@@ -6,10 +6,9 @@
     - [Bottom Tabs Navigator](#bottom-tabs-navigator)
   - [Lijsten in React Native](#lijsten-in-react-native)
     - [List Views](#list-views)
+  - [Opdracht 1: Navigeren tussen twee schermen](#opdracht-1-navigeren-tussen-twee-schermen)
+  - [Opdracht 2: Navigeren vanuit een statische lijst](#opdracht-2-navigeren-vanuit-een-statische-lijst)
   - [Opdracht](#opdracht)
-  - [Opdracht](#opdracht-1)
-  - [Opdracht](#opdracht-2)
-
 
 ## Navigatie in React Native
 
@@ -41,39 +40,56 @@ verschillende schermen genavigeerd moet kunnen worden. 🔗 https://reactnavigat
 
 ## Lijsten in React Native
 
-Een mobiele app heeft **geen oneindig groot scherm** en ook geen standaard scrollbar zoals in een webbrowser. Als je meer content wilt tonen dan op het scherm past, moet je zelf zorgen voor scroll-functionaliteit, bijvoorbeeld met een `ScrollView`.
+Een mobiele app heeft **geen oneindig groot scherm** en ook geen standaard scrollbar zoals in een webbrowser. Als je
+meer content wilt tonen dan op het scherm past, moet je zelf zorgen voor scroll-functionaliteit, bijvoorbeeld met een
+`ScrollView`.
 
-Een `ScrollView` maakt scrollen mogelijk en werkt prima voor bijvoorbeeld tekstpagina’s. Maar als je een lijst met een onbekend aantal items wilt tonen, is een `ScrollView` minder geschikt. Dit komt omdat een `ScrollView` **alle** items in één keer laadt, zelfs als ze niet zichtbaar zijn. Bij lange lijsten kan dit veel geheugen verbruiken en je app trager maken. De oplossing hiervoor is om gebruikt maken van een `List View`.
+Een `ScrollView` maakt scrollen mogelijk en werkt prima voor bijvoorbeeld tekstpagina’s. Maar als je een lijst met een
+onbekend aantal items wilt tonen, is een `ScrollView` minder geschikt. Dit komt omdat een `ScrollView` **alle** items in
+één keer laadt, zelfs als ze niet zichtbaar zijn. Bij lange lijsten kan dit veel geheugen verbruiken en je app trager
+maken. De oplossing hiervoor is om gebruikt maken van een `List View`.
 
 ### List Views
 
-Een `List View` is een geoptimaliseerde manier om lijsten weer te geven. In tegenstelling tot een `ScrollView` laadt een List View alleen de items in die op dat moment op het scherm zichtbaar zijn. Dit maakt het efficiënter en voorkomt onnodig geheugenverbruik.
+Een `List View` is een geoptimaliseerde manier om lijsten weer te geven. In tegenstelling tot een `ScrollView` laadt een
+List View alleen de items in die op dat moment op het scherm zichtbaar zijn. Dit maakt het efficiënter en voorkomt
+onnodig geheugenverbruik.
 
 React Native biedt twee soorten List Views:
 
-- **`FlatList`** → Het standaardcomponent voor het weergeven van een lijst met items.  
+- **`FlatList`** → Het standaardcomponent voor het weergeven van een lijst met items.
 - **`SectionList`** → Voor een lijst met gegroepeerde items, zoals een alfabetische lijst met secties per letter.
-
-
 
 https://reactnative.dev/docs/scrollview<br> https://reactnative.dev/docs/safeareaview<br>
 https://reactnative.dev/docs/using-a-listview
 
 <br><br>
 
-## Opdracht
+## Opdracht 1: Navigeren tussen twee schermen
 
-Maak een app met 2 schermen, met behulp van een stack navigator.
+Bouw een React Native-app met twee schermen en gebruik een **Stack Navigator** om ertussen te navigeren.
 
-- Een button op scherm 1 opent scherm 2
-- Voeg een tweede button en een counter toe
-- Toon op scherm 2 de waarde van de counter, door deze mee te sturen als param met de navigatie
+**Functionaliteiten**
+
+- Scherm 1 bevat een **counter** en een **button** om de waarde van de counter te verhogen.
+- Scherm 1 bevat daarnaast een **button** die **Scherm 2** opent.
+- Wanneer je naar **Scherm 2** navigeert, wordt de **huidige waarde van de counter** als parameter meegestuurd.
+- Op **Scherm 2** wordt deze waarde weergegeven.
 
 <br><br>
 
-## Opdracht
+## Opdracht 2: Navigeren vanuit een statische lijst
 
-2 schermen, statische lijst + gegevens doorsturen uit die lijst als je klikt
+Bouw een React Native-app met twee schermen en een **statische lijst** met gegevens op het eerste scherm. Gebruik een
+**Stack Navigator** om naar het tweede scherm te navigeren.
+
+**Functionaliteiten**
+
+- Maak of genereer een lijst met gegevens over een onderwerp naar keuze.
+- Toon op **Scherm 1** de gegevens in een `FlatList`.
+- Wanneer een gebruiker op een item drukt moet **Scherm 2** geopend worden en de details van het geselecteerde item
+  moeten als **parameter** worden meegegeven.
+- Geef de ontvangen gegevens weer op **Scherm 2**.
 
 <br><br>
 
