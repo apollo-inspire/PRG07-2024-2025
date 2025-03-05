@@ -1,17 +1,15 @@
 # Les 1
 
 - [Les 1](#les-1)
-- [JavaScript](#javascript)
-    - [Opdracht 1: Mini-puzzels](#opdracht-1-mini-puzzels)
-        - [Werkwijze](#werkwijze)
-    - [Opdracht 2: Overzicht van Emoji's 🤯](#opdracht-2-overzicht-van-emojis-)
-        - [Opdrachten](#opdrachten)
-    - [Front-end Frameworks](#front-end-frameworks)
-        - [Opdracht](#opdracht)
+  - [JavaScript](#javascript)
+  - [Opdracht 1: Mini-puzzels](#opdracht-1-mini-puzzels)
+  - [Opdracht 2: Overzicht van Emoji's 🤯](#opdracht-2-overzicht-van-emojis-)
+  - [Frameworks](#frameworks)
+    - [Opdracht - Mini React](#opdracht---mini-react)
 
 <br><br>
 
-# JavaScript
+## JavaScript
 
 **AANTEKENING: onderwerpen om te herhalen:**
 
@@ -35,7 +33,9 @@ Deze opdracht bestaat uit een reeks **JavaScript mini-puzzels**, waarbij elke pu
 techniek binnen JavaScript. Dit is een oefening om belangrijke concepten te herhalen en toe te passen in kleine,
 gerichte codevoorbeelden.
 
-### Werkwijze
+<br>
+
+**Werkwijze**
 
 1. Kopieer de [startcode van de puzzels](../startcode/les1/puzzels.js) naar een eigen document.
 2. Elke puzzel begint met een titel en een korte uitleg in **commentaar**.
@@ -48,7 +48,7 @@ gerichte codevoorbeelden.
 ## Opdracht 2: Overzicht van Emoji's 🤯
 
 Je gaat een kleine Javascript applicatie bouwen die je via nodeJS aan
-gaat roepen. In deze applicatie ga je een lijst tonen van beschikbare emojis met
+gaat roepen. In deze applicatie ga je een lijst tonen van beschikbare emoji's met
 hun bijbehorende categorie, htmlCode en unicode. Je geeft 2 argumenten mee
 aan dit script die invloed hebben op de output.
 
@@ -74,9 +74,11 @@ meegegeven worden (pad van Node, en pad van het aangeroepen bestand),
 eraf gehaald worden en je alleen de argumenten overhoudt die voor jou
 relevant zijn.
 
-### Opdrachten
+<br>
 
-1. Maak een array met objecten aan waarin je een lijst met emojis te zien krijgt.
+**Werkwijze**
+
+1. Maak een array met objecten aan waarin je een lijst met emoji's te zien krijgt.
     * Zorg dat je minimaal 10 items hebt met verschillende waardes. Hou hierbij de structuur aan zoals in
       de [API](https://github.com/cheatsnake/emojihub/blob/master/emojistore/data/emojibase.json)
 2. Loop door de informatie heen met een `for...of` loop en console.log de waardes. Log de eigenschappen
@@ -93,7 +95,7 @@ relevant zijn.
 6. Schrijf de `fetch` om door gebruik te maken van `async`/`await` i.p.v. `.then()`/`.catch()`.
 7. Bedenk een slimme manier om beide scenario's (eigen data & API-data) dezelfde filter logica
    te laten gebruiken en dubbele code te voorkomen.
-8. Toon als category 'list' gebruikt wordt een lijst met alle beschikbare categorieën. Je output zijn nu dus geen emojis
+8. Toon als category 'list' gebruikt wordt een lijst met alle beschikbare categorieën. Je output zijn nu dus geen emoji's
    meer,
    maar alle categorieën die bestaan.
 
@@ -113,7 +115,7 @@ bij veranderingen. Of `useEffect` om code te laten uitvoeren op bepaalde momente
 
 <br><br>
 
-#### Opdracht
+### Opdracht - Mini React
 
 Om meer inzicht te krijgen in de werking van een framework, ga je uitzoeken hoe een mini-framework gebaseerd op React
 werkt, en ga je een hook-method schrijven voor dit framework.
@@ -126,22 +128,21 @@ Download de startcode, maar run het project nog niet: https://github.com/HR-CMGT
 3. Wat denk je dat het resultaat is?
 4. Installeer de node modules (`npm install`) en run het project (`npm run dev`). Klopt je antwoord van vraag 3?
 5. React maakt gebruik van JSX. Onderwater creëren JSX-tags *elementen* (m.b.v. de functie `createElement`) met een
-   type (de html-tag), props (object met attributen, en eventuele children (child elementen of tekst content).
+   type (de html-tag), props (object met attributen), en eventuele children (child elementen of tekst content).
    React-mini heeft helaas nog geen JSX ondersteuning dus we moeten
    `createElement` zelf aanroepen om html en functie elementen te maken. Voeg aan de App een `main` toe met daarin een
    `section` met een `h1` en een `p`, om hiermee te oefenen.
 6. Voeg ook een `button` toe met een alert. Tip: `onclick` is een property van button.
-7. Geef React-mini een `useState` functie die en initiele waarde als parameter verwacht en deze opslaat. Daarna returnt
-   hij deze waarde. Gebruik deze functie (`const [counter, setCounter] = useState(0);`) om een counter in de App te
-   tonen, die nog niet werkt maar altijd de initiele waarde 0 toont. NB. Omdat we alleen een waarde returnen, is
-   `setCounter` natuurlijk `undefined`.
-8. Zorg nu dat je `useState` ook een setter returnt. Dit is een functie die opgeslagen waarde verandert en daarna de
-   functie `reRender` aanroept. Het is belangrijk dat de waarde niet in `useState` wordt opgeslagen, maar globaal (
-   bedenk waarom!). Return de waarde en de setter, en gebruik deze om met de button de `count` op te hogen (
+7. Geef React-mini een `useState` functie die een initiële waarde als parameter verwacht en deze opslaat. Daarna returnt
+   hij deze waarde. Maak vervolgens de variabele `counter` aan met jouw useState functie (dus: `const [counter, setCounter] = useState(0);`) aan het begin van de App-component om een counter in de App te
+   tonen, die momenteel nog niet werkt maar altijd de initiele waarde 0 toont. NB. Omdat we alleen een waarde returnen, is
+   `setCounter` natuurlijk `undefined`, dit ga je in de volgende stap implementeren.
+8. Zorg nu dat je `useState` ook een setter returnt. Dit is een functie die de opgeslagen waarde verandert en daarna de
+   functie `reRender` aanroept. Het is belangrijk dat de waarde niet in de functie `useState` zelf wordt opgeslagen, maar globaal (
+   bedenk waarom!). Return naast de waarde nu ook de setter en gebruik deze om met de button de `count` op te hogen (
    `count + 1`).
-9. Lukt het ook om de setter zo te maken dat je niet alleen een nieuwe waarde maar ook een functie kunt meegegeven, net
-   als in React, dus: `(x) => (x + 1)`?
+9. Pas de setter aan zodat deze zowel een nieuwe waarde als een functie accepteert, vergelijkbaar met React. Bijvoorbeeld: (x) => x + 1.
 10. Deze `useState` kan maar één waarde bijhouden. Denk na over hoe je `useState` voor meerdere variabelen zou kunnen
-    werlen. Je hoeft dit niet te programmeren.
+    werken. Je hoeft dit niet te programmeren, maar dat mag wel 😉
 
 
