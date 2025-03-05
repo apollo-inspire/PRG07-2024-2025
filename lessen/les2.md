@@ -5,16 +5,16 @@
 -->
 
 - [Les 2](#les-2)
-  - [React Native](#react-native)
-  - [Expo](#expo)
-  - [TSX vs JSX](#tsx-vs-jsx)
-  - [Opdrachten](#opdrachten)
-    - [Opdracht 1 - Hello World](#opdracht-1---hello-world)
-    - [Opdracht 2 - Bezoekersteller](#opdracht-2---bezoekersteller)
-    - [Opdracht 3 - Wisselende Achtergrondkleur](#opdracht-3---wisselende-achtergrondkleur)
-    - [Opdracht 4 - Random Quote Generator](#opdracht-4---random-quote-generator)
-    - [Opdracht 5](#opdracht-5)
-    - [Opdracht 6](#opdracht-6)
+    - [React Native](#react-native)
+    - [Expo](#expo)
+    - [TSX vs JSX](#tsx-vs-jsx)
+    - [Opdrachten](#opdrachten)
+        - [Opdracht 1 - Hello World](#opdracht-1---hello-world)
+        - [Opdracht 2 - Bezoekersteller](#opdracht-2---bezoekersteller)
+        - [Opdracht 3 - Wisselende Achtergrondkleur](#opdracht-3---wisselende-achtergrondkleur)
+        - [Opdracht 4 - Random Quote Generator](#opdracht-4---random-quote-generator)
+        - [Opdracht 5](#opdracht-5)
+        - [Opdracht 6](#opdracht-6)
 
 <br><br>
 
@@ -73,20 +73,22 @@ Maak je eerste Expo app door de [installatie van les 2](../guides/installatie.md
 
 [Installeer](../guides/installatie.md) een nieuwe Expo app.
 <br>
-Bouw vervolgens een React Native-app waarmee je het aantal mensen kunt bijhouden dat een ruimte in- en uitloopt (bijvoorbeeld omdat er maar
+Bouw vervolgens een React Native-app waarmee je het aantal mensen kunt bijhouden dat een ruimte in- en uitloopt (
+bijvoorbeeld omdat er maar
 maximaal 200 mensen tegelijk aanwezig mogen zijn van de brandweer).
 
 - De app bevat drie knoppen:
-  - **+1** om een persoon toe te voegen.
-  - **-1** om een persoon te verwijderen.
-  - **Reset** om de teller op 0 te zetten.
+    - **+1** om een persoon toe te voegen.
+    - **-1** om een persoon te verwijderen.
+    - **Reset** om de teller op 0 te zetten.
 - De teller mag nooit kleiner dan **0** worden.
 - Als een gebruiker probeert de teller onder **0** te verlagen, toon dan een **alert** met een waarschuwingsbericht.
 - Zorg dat de app er **visueel aantrekkelijk** uitziet.
 
 Gebruik `console.log` om de flow van je app te debuggen.
 
-> Klaar? Voeg ook een **progressbar** toe die de capaciteit van 0% tot 100% weergeeft? De progressbar moet dynamisch de huidige waarde tonen.
+> Klaar? Voeg ook een **progressbar** toe die de capaciteit van 0% tot 100% weergeeft? De progressbar moet dynamisch de
+> huidige waarde tonen.
 
 Nuttige
 links: [View](https://reactnative.dev/docs/view), [Text](https://reactnative.dev/docs/text), [Button](https://reactnative.dev/docs/button),
@@ -99,7 +101,8 @@ links: [View](https://reactnative.dev/docs/view), [Text](https://reactnative.dev
 
 [Installeer](../guides/installatie.md) een nieuwe Expo app.
 <br>
-Bouw vervolgens een React Native-app met een enkele **Button** die de achtergrondkleur van het scherm verandert in een **vast patroon**. Zodra de reeks kleuren is doorlopen, begint deze opnieuw.
+Bouw vervolgens een React Native-app met een enkele **Button** die de achtergrondkleur van het scherm verandert in een *
+*vast patroon**. Zodra de reeks kleuren is doorlopen, begint deze opnieuw.
 
 - Het scherm heeft een **witte achtergrond** bij de start.
 - Er is één **Button** die de achtergrondkleur verandert.
@@ -117,19 +120,25 @@ Klik [hier](../assets/quotes.json) voor de quotes, klik vervolgens op "Raw" en k
 
 - De app bevat een **Pressable** knop waarmee je een nieuwe quote kunt laden.
 - De quote wordt dynamisch bijgewerkt zodra de knop wordt ingedrukt.
-- Zorg voor een **stijlvolle vormgeving**, waarbij zowel de knop als de tekst duidelijk en aantrekkelijk worden weergegeven.
+- Zorg voor een **stijlvolle vormgeving**, waarbij zowel de knop als de tekst duidelijk en aantrekkelijk worden
+  weergegeven.
 
 Nuttige links: [Pressable](https://reactnative.dev/docs/pressable),
 [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
 <br><br>
 
-### Opdracht 5
+### Opdracht 5 - Flexbox
 
-nabouwen ontwerp
+[Installeer](../guides/installatie.md) een nieuwe Expo app.
+<br>
+Bouw onderstaand ontwerp na. Het gaat daarbij vooral om de plaatsing van de elementen. Je mag de kleuren aanpassen aan
+je eigen smaak en je favoriete film gebruiken.
+
+<img src="../assets/screenshot2_5.png" width="500" alt="screenshot" style="border:5px solid black; border-radius: 20px"/>
 
 <br><br>
 
-### Opdracht 6
+### Opdracht 6 - Darkmode
 
-toevoegen darkmode switch
+Voeg een switch toe aan de app van opdracht 5 om te wisselen tussen light en dark mode, en zorg dat deze werkt.
