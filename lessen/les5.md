@@ -1,5 +1,16 @@
 # Les 5
 
+- [Les 5](#les-5)
+  - [Maps](#maps)
+  - [Location](#location)
+    - [Coarse Location (`LocationAccuracy.Low`)](#coarse-location-locationaccuracylow)
+    - [Fine Location (`LocationAccuracy.High`)](#fine-location-locationaccuracyhigh)
+    - [Locatie-app testen](#locatie-app-testen)
+  - [Opdracht](#opdracht)
+  - [Opdracht](#opdracht-1)
+  - [Eindopdracht](#eindopdracht)
+
+
 ## Maps
 
 React Native biedt ondersteuning voor het gebruik van kaarten in apps. Afhankelijk van het platform wordt automatisch de
@@ -11,8 +22,8 @@ juiste kaartendienst gekozen:
 Met Expo Go is het mogelijk om kaarten te gebruiken zonder een API-key te configureren. Voor een productie-app is
 dit wel nodig.
 
-https://docs.expo.dev/versions/latest/sdk/map-view/ (MapView)<br>
-https://github.com/react-native-maps/react-native-maps (Marker)
+- MapView: https://docs.expo.dev/versions/latest/sdk/map-view/
+- Marker: https://github.com/react-native-maps/react-native-maps
 
 ## Location
 
@@ -31,22 +42,28 @@ zorgt voor een zeer nauwkeurige plaatsbepaling (tot op enkele meters), maar heef
 batterijverbruik. Gebruik dit dus alleen als je echt precies moet weten waar iemand is, bijvoorbeeld voor een
 navigatie-app.
 
-Nodig voor navigatie-apps en precieze locatiebepalingen
-Testen van locatie
-Tijdens ontwikkeling kun je locatiefunctionaliteit testen op een emulator of een fysiek apparaat.
-
 ### Locatie-app testen
 
 Om een locatie-app te testen zonder steeds naar buiten te hoeven, kan je gebruik maken van de opties in de Android
 Emulator (Extended controls - Location) of iOS simulator (Features - Location). Ook is het mogelijk om op een Android
 device een app te installeren om een fake locatie in te stellen.
 
-https://docs.expo.dev/versions/latest/sdk/location/<br>
-https://docs.expo.dev/versions/latest/sdk/location/#locationoptions (Accuracy)
+- Huidige locatie ophalen: https://docs.expo.dev/versions/latest/sdk/location/
+- Accuray van locatie ophalen: https://docs.expo.dev/versions/latest/sdk/location/#locationoptions
 
-#### Opdracht
+<br><br>
 
-toon eigen locatie op de kaart, voeg spoor (van markers) toe op de kaart als je beweegt
+## Opdracht
+
+toon huidige locatie op de kaart, eventueel vanuit emulator en zoom in op deze locatie
+
+<br><br>
+
+## Opdracht
+
+toon eigen locatie op de kaart, voeg spoor (van markers) toe op de kaart als je beweegt (kan niet in emulator)
+
+<br><br>
 
 ## Eindopdracht
 
