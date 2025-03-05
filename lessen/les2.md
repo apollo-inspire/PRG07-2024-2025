@@ -118,9 +118,9 @@ Bouw vervolgens een React Native-app met een enkele **Button** die de achtergron
 Bouw vervolgens een React Native-app die bij elke druk op een knop een willekeurige quote ophaalt en toont.
 Klik [hier](../assets/quotes.json) voor de quotes, klik vervolgens op "Raw" en kopieer dan de URL
 
-- De app bevat een **Pressable** knop waarmee je een nieuwe quote kunt laden.
-- De quote wordt dynamisch bijgewerkt zodra de knop wordt ingedrukt.
-- Zorg voor een **stijlvolle vormgeving**, waarbij zowel de knop als de tekst duidelijk en aantrekkelijk worden
+- De app bevat een `Pressable` knop waarmee je een nieuwe quote kunt laden.
+- De quote wordt bijgewerkt zodra de knop wordt ingedrukt.
+- Zorg voor een vormgeving, waarbij zowel de knop als de tekst duidelijk en aantrekkelijk worden
   weergegeven.
 
 Nuttige links: [Pressable](https://reactnative.dev/docs/pressable),
@@ -137,8 +137,12 @@ je eigen smaak en je favoriete film gebruiken.
 
 <img src="../assets/screenshot2_5.png" width="500" alt="screenshot" style="border:5px solid black; border-radius: 20px"/>
 
+Nuttige links: [Flexbox](https://reactnative.dev/docs/flexbox)
+
 <br><br>
 
 ### Opdracht 6 - Darkmode
 
 Voeg een switch toe aan de app van opdracht 5 om te wisselen tussen light en dark mode, en zorg dat deze werkt.
+
+Nuttige links: [Switch](https://reactnative.dev/docs/switch)
