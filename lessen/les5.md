@@ -6,21 +6,20 @@
     - [Coarse Location (`LocationAccuracy.Low`)](#coarse-location-locationaccuracylow)
     - [Fine Location (`LocationAccuracy.High`)](#fine-location-locationaccuracyhigh)
     - [Locatie-app testen](#locatie-app-testen)
-  - [Opdracht](#opdracht)
-  - [Opdracht](#opdracht-1)
+  - [Opdracht 5.1](#opdracht-51)
+  - [Opdracht 5.2](#opdracht-52)
   - [Eindopdracht](#eindopdracht)
-
 
 ## Maps
 
-React Native biedt ondersteuning voor het gebruik van kaarten in apps. Afhankelijk van het platform wordt automatisch de
-juiste kaartendienst gekozen:
+React Native biedt ondersteuning voor het gebruik van kaarten in apps. Afhankelijk van het platform wordt automatisch
+de juiste kaartendienst gekozen:
 
-* Google Maps voor Android
-* Apple Maps voor iOS
+- Google Maps voor Android
+- Apple Maps voor iOS
 
-Met Expo Go is het mogelijk om kaarten te gebruiken zonder een API-key te configureren. Voor een productie-app is
-dit wel nodig.
+Met Expo Go is het mogelijk om kaarten te gebruiken zonder een API-key te configureren. Voor een productie-app is dit
+wel nodig.
 
 - MapView: https://docs.expo.dev/versions/latest/sdk/map-view/
 - Marker: https://github.com/react-native-maps/react-native-maps
@@ -32,8 +31,8 @@ Mobiele apparaten kunnen hun locatie op verschillende manieren bepalen.
 ### Coarse Location (`LocationAccuracy.Low`)
 
 Maakt gebruik van wifi-netwerken, mobiele zendmasten en IP-adressen. Dit is minder nauwkeurig (vaak binnen enkele
-honderden meters), maar wel sneller en verbruikt minder energie (batterij).
-Gebruik dit als nauwkeurigheid niet zo belangrijk is, bijvoorbeeld voor een weer-app.
+honderden meters), maar wel sneller en verbruikt minder energie (batterij). Gebruik dit als nauwkeurigheid niet zo
+belangrijk is, bijvoorbeeld voor een weer-app.
 
 ### Fine Location (`LocationAccuracy.High`)
 
@@ -53,15 +52,16 @@ device een app te installeren om een fake locatie in te stellen.
 
 <br><br>
 
-## Opdracht
+## Opdracht 5.1
 
-toon huidige locatie op de kaart, eventueel vanuit emulator en zoom in op deze locatie
+Toon een kaart met daarop de huidige locatie van de gebruiker (eventueel vanuit emulator), en zoom in op deze locatie.
 
 <br><br>
 
-## Opdracht
+## Opdracht 5.2
 
-toon eigen locatie op de kaart, voeg spoor (van markers) toe op de kaart als je beweegt (kan niet in emulator)
+Volg de gebruiker als hij beweegt. De kaart blijft gecentreerd op de gebruiker, en laat een spoor (van markers) van
+markers zien waar de gebruiker geweest is.
 
 <br><br>
 
