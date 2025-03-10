@@ -9,12 +9,12 @@
   - [Expo](#expo)
     - [TSX vs JSX](#tsx-vs-jsx)
   - [Opdrachten](#opdrachten)
-    - [Opdracht 1 - Hello World](#opdracht-1---hello-world)
-    - [Opdracht 2 - Bezoekersteller](#opdracht-2---bezoekersteller)
-    - [Opdracht 3 - Wisselende Achtergrondkleur](#opdracht-3---wisselende-achtergrondkleur)
-    - [Opdracht 4 - Random Quote Generator](#opdracht-4---random-quote-generator)
-    - [Opdracht 5 - Flexbox](#opdracht-5---flexbox)
-    - [Opdracht 6 - Dark Mode](#opdracht-6---dark-mode)
+    - [Opdracht 2.1 - Hello World](#opdracht-21---hello-world)
+    - [Opdracht 2.2 - Bezoekersteller](#opdracht-22---bezoekersteller)
+    - [Opdracht 2.3 - Wisselende Achtergrondkleur](#opdracht-23---wisselende-achtergrondkleur)
+    - [Opdracht 2.4 - Random Quote Generator](#opdracht-24---random-quote-generator)
+    - [Opdracht 2.5 - Flexbox](#opdracht-25---flexbox)
+    - [Opdracht 2.6 - Dark Mode](#opdracht-26---dark-mode)
 
 <br><br>
 
@@ -23,13 +23,13 @@
 React Native is een framework waarmee je mobiele apps kunt bouwen met JavaScript en React. In plaats van HTML en CSS
 worden native UI-componenten gebruikt, waardoor de app eruitziet en aanvoelt als een echte native app.
 
-React Native werkt met een _bridge_, een tussenlaag die zorgt dat JavaScript de native API aan kan spreken. Hierdoor kan
-je met JavaScript direct communiceren met de functies van een mobiel besturingssysteem, zoals toegang tot de camera of
-GPS.
+React Native werkt met een _bridge_, een tussenlaag die zorgt dat JavaScript de native API aan kan spreken. Hierdoor
+kan je met JavaScript direct communiceren met de functies van een mobiel besturingssysteem, zoals toegang tot de camera
+of GPS.
 
-Doordat er een bridge is voor Android en voor iOS kan je tijdens de ontwikkeling generieke elementen gebruiken. In React
-Native heb je bijvoorbeeld het component `<Button>`, dat op Android vertaald wordt naar `android.widget.Button` en op
-iOS naar `UIButton`.
+Doordat er een bridge is voor Android en voor iOS kan je tijdens de ontwikkeling generieke elementen gebruiken. In
+React Native heb je bijvoorbeeld het component `<Button>`, dat op Android vertaald wordt naar `android.widget.Button`
+en op iOS naar `UIButton`.
 
 <br><br>
 
@@ -55,7 +55,7 @@ weg te laten.
 
 ## Opdrachten
 
-### Opdracht 1 - Hello World
+### Opdracht 2.1 - Hello World
 
 Tijdens deze les zul je meerdere opdrachten uitvoeren. Voor iedere opdracht voer je opnieuw onderstaande installatie
 uit, wat dus betekent dat je voor iedere opdracht een nieuwe app maakt.
@@ -67,7 +67,7 @@ Maak je eerste Expo app door de [installatie van les 2](../guides/installatie.md
 
 <br><br>
 
-### Opdracht 2 - Bezoekersteller
+### Opdracht 2.2 - Bezoekersteller
 
 [Installeer](../guides/installatie.md) een nieuwe Expo app. <br> Bouw vervolgens een React Native-app waarmee je het
 aantal mensen kunt bijhouden dat een ruimte in- en uitloopt ( bijvoorbeeld omdat er maar maximaal 200 mensen tegelijk
@@ -93,7 +93,7 @@ Nuttige links: [View](https://reactnative.dev/docs/view), [Text](https://reactna
 
 <br><br>
 
-### Opdracht 3 - Wisselende Achtergrondkleur
+### Opdracht 2.3 - Wisselende Achtergrondkleur
 
 [Installeer](../guides/installatie.md) een nieuwe Expo app. <br> Bouw vervolgens een React Native-app met een enkele
 **Button** die de achtergrondkleur van het scherm verandert in een \* \*vast patroon\*\*. Zodra de reeks kleuren is
@@ -106,7 +106,7 @@ doorlopen, begint deze opnieuw.
 
 <br><br>
 
-### Opdracht 4 - Random Quote Generator
+### Opdracht 2.4 - Random Quote Generator
 
 [Installeer](../guides/installatie.md) een nieuwe Expo app. <br> Bouw vervolgens een React Native-app die bij elke druk
 op een knop een willekeurige quote ophaalt en toont. Klik [hier](../assets/quotes.json) voor de quotes, klik vervolgens
@@ -121,10 +121,10 @@ Nuttige links: [Pressable](https://reactnative.dev/docs/pressable),
 
 <br><br>
 
-### Opdracht 5 - Flexbox
+### Opdracht 2.5 - Flexbox
 
-[Installeer](../guides/installatie.md) een nieuwe Expo app. <br> Bouw onderstaand ontwerp na. Het gaat daarbij vooral om
-de plaatsing van de elementen. Je mag de kleuren aanpassen aan je eigen smaak en je favoriete film gebruiken.
+[Installeer](../guides/installatie.md) een nieuwe Expo app. <br> Bouw onderstaand ontwerp na. Het gaat daarbij vooral
+om de plaatsing van de elementen. Je mag de kleuren aanpassen aan je eigen smaak en je favoriete film gebruiken.
 
 <img src="../assets/screenshot2_5.png" width="500" alt="screenshot" style="border:5px solid black; border-radius: 20px"/>
 
@@ -132,12 +132,12 @@ Nuttige links: [Flexbox](https://reactnative.dev/docs/flexbox)
 
 <br><br>
 
-### Opdracht 6 - Dark Mode
+### Opdracht 2.6 - Dark Mode
 
-Breid de app van opdracht 5 uit met een **switch** waarmee je kunt wisselen tussen **light mode** en **dark mode**. Zorg
-dat de weergave direct verandert wanneer de gebruiker de switch omzet.
+Breid de app van opdracht 5 uit met een **switch** waarmee je kunt wisselen tussen **light mode** en **dark mode**.
+Zorg dat de weergave direct verandert wanneer de gebruiker de switch omzet.
 
-In een latere les leer je hoe je deze instelling kunt opslaan op het apparaat, zodat de voorkeur behouden blijft, ook na
-het opnieuw opstarten van de app.
+In een latere les leer je hoe je deze instelling kunt opslaan op het apparaat, zodat de voorkeur behouden blijft, ook
+na het opnieuw opstarten van de app.
 
 Nuttige links: [Switch](https://reactnative.dev/docs/switch)
