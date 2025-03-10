@@ -3,19 +3,17 @@
 - [Les 4](#les-4)
   - [Persistent data](#persistent-data)
   - [Gebruikersinvoer](#gebruikersinvoer)
-  - [Opdracht](#opdracht)
-  - [Opdracht](#opdracht-1)
-
+  - [Opdracht 4.1](#opdracht-41)
+  - [Opdracht 4.2](#opdracht-42)
+  - [Opdracht 4.3](#opdracht-43)
 
 ## Persistent data
 
 In mobiele apps is het soms nodig om gegevens lokaal op te slaan, bijvoorbeeld gebruikersvoorkeuren of een inlogsessie.
 
-**AsyncStorage** is een eenvoudige key-value opslagmethode voor het opslaan van gegevens die tussen app-sessies behouden
-moeten blijven. Het is vergelijkbaar met localStorage in de browser, maar werkt asynchroon en ondersteunt grotere
-hoeveelheden data.
-<br>
-https://reactnavigation.org/docs/getting-started
+**AsyncStorage** is een eenvoudige key-value opslagmethode voor het opslaan van gegevens die tussen app-sessies
+behouden moeten blijven. Het is vergelijkbaar met localStorage in de browser, maar werkt asynchroon en ondersteunt
+grotere hoeveelheden data. <br> https://reactnavigation.org/docs/getting-started
 
 Voor gevoelige gegevens, zoals wachtwoorden of tokens, kan je beter **Expo Secure Storage** gebruiken. Dit slaat
 gegevens versleuteld op en maakt gebruik van de beveiligde opslagmechanismen van het besturingssysteem (bijv. de
@@ -45,11 +43,18 @@ SecureStore.getItemAsync(key);
 
 Safe Area 'formulieren' Numeriek / Alfa
 
-## Opdracht
+## Opdracht 4.1
 
-kleine oefenopdracht met invoer en storage (bijv. 2 schermen, 1e scherm welkom, 2e scherm laat naam opslaan, 1e scherm
-toont 'Hallo ...' ook na afsluiten)
+Zorg dat de keuze tussen light en darkmode van opdracht 2.6 bewaard blijft, ook als de app afgesloten en opnieuw
+opgestart wordt.
 
-## Opdracht
+## Opdracht 4.2
 
-grote opdracht: CRUD + opmaak + darkmode (in storage)
+Maak een App met twee schermen en stack navigatie. Op het eerste scherm staat een algemene welkomsboodschap. Op het
+tweede scherm kan je je naam invoeren. Ga je terug dat is de algemene boodschap veranderd in een boodschap met je naam
+erin.
+
+## Opdracht 4.3
+
+Ga verder met je code van opdracht 3.3. Voeg daaraan een Create, Update en Delete toe, en geef de gebruiker de keuze
+tussen light en darkmode.
