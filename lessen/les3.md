@@ -21,9 +21,9 @@ een product de details doorsturen naar het volgende scherm.
 ### Stack Navigator
 
 Een `Stack Navigator` werkt als een stapel schermen, waarbij alleen het bovenste scherm zichtbaar is voor de gebruiker.
-Wanneer je naar een nieuw scherm gaat, wordt dit **bovenop de stapel** geplaatst. Het vorige scherm blijft eronder
-staan en verdwijnt niet uit het geheugen. Wanneer je op de terug-knop drukt, dan wordt het bovenste scherm
-**weggehaald**, en zie je dus weer het vorige scherm.
+Wanneer je naar een nieuw scherm gaat, wordt dit **bovenop de stapel** geplaatst. Het vorige scherm blijft eronder staan
+en verdwijnt niet uit het geheugen. Wanneer je op de terug-knop drukt, dan wordt het bovenste scherm **weggehaald**, en
+zie je dus weer het vorige scherm.
 
 Dit is vergelijkbaar met hoe een browsergeschiedenis werkt: als je een nieuwe pagina opent, kun je met de terug-knop
 weer naar de vorige pagina.
@@ -45,14 +45,14 @@ meer content wilt tonen dan op het scherm past, moet je zelf zorgen voor scroll-
 `ScrollView`.
 
 Een `ScrollView` maakt scrollen mogelijk en werkt prima voor bijvoorbeeld tekstpagina’s. Maar als je een lijst met een
-onbekend aantal items wilt tonen, is een `ScrollView` minder geschikt. Dit komt omdat een `ScrollView` **alle** items
-in één keer laadt, zelfs als ze niet zichtbaar zijn. Bij lange lijsten kan dit veel geheugen verbruiken en je app
-trager maken. De oplossing hiervoor is om gebruikt maken van een `List View`.
+onbekend aantal items wilt tonen, is een `ScrollView` minder geschikt. Dit komt omdat een `ScrollView` **alle** items in
+één keer laadt, zelfs als ze niet zichtbaar zijn. Bij lange lijsten kan dit veel geheugen verbruiken en je app trager
+maken. De oplossing hiervoor is om gebruikt maken van een `List View`.
 
 ### List Views
 
-Een `List View` is een geoptimaliseerde manier om lijsten weer te geven. In tegenstelling tot een `ScrollView` laadt
-een List View alleen de items in die op dat moment op het scherm zichtbaar zijn. Dit maakt het efficiënter en voorkomt
+Een `List View` is een geoptimaliseerde manier om lijsten weer te geven. In tegenstelling tot een `ScrollView` laadt een
+List View alleen de items in die op dat moment op het scherm zichtbaar zijn. Dit maakt het efficiënter en voorkomt
 onnodig geheugenverbruik.
 
 React Native biedt twee soorten List Views:
@@ -102,6 +102,7 @@ Bouw een React Native-app met twee schermen en een lijst met notes of chess spot
 
 - Haal de [notes](https://notes.basboot.nl/notes) of [chess spots](https://prg06-node-express.antwan.eu/spots/) op van
   de webservice.
+  - Laat tijdens het ophalen van de data een loader zien met `ActivityIndicator`
 - Toon op **scherm 1** de gegevens in een `FlatList`.
 - Wanneer een gebruiker op een item drukt moet **scherm 2** geopend worden.
 - Haal op **scherm 2** de details op van de geselecteerde note of chess spot en toon deze op het scherm.
