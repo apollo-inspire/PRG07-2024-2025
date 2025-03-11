@@ -70,8 +70,10 @@ Maak je eerste Expo app door de [installatie van les 2](../guides/installatie.md
 ### Opdracht 2.2 - Bezoekersteller
 
 [Installeer](../guides/installatie.md) een nieuwe Expo app. <br> Bouw vervolgens een React Native-app waarmee je het
-aantal mensen kunt bijhouden dat een ruimte in- en uitloopt ( bijvoorbeeld omdat er maar maximaal 200 mensen tegelijk
+aantal mensen kunt bijhouden dat een ruimte in- en uitloopt (bijvoorbeeld omdat er maar maximaal 200 mensen tegelijk
 aanwezig mogen zijn van de brandweer).
+
+**Functionaliteiten**
 
 - De app bevat drie knoppen:
   - **+1** om een persoon toe te voegen.
@@ -99,6 +101,8 @@ Nuttige links: [View](https://reactnative.dev/docs/view), [Text](https://reactna
 **Button** die de achtergrondkleur van het scherm verandert in een \* \*vast patroon\*\*. Zodra de reeks kleuren is
 doorlopen, begint deze opnieuw.
 
+**Functionaliteiten**
+
 - Het scherm heeft een **witte achtergrond** bij de start.
 - Er is één **Button** die de achtergrondkleur verandert.
 - De kleuren veranderen in een **vaste volgorde** en herhalen zich zodra de reeks is doorlopen.
@@ -111,6 +115,8 @@ doorlopen, begint deze opnieuw.
 [Installeer](../guides/installatie.md) een nieuwe Expo app. <br> Bouw vervolgens een React Native-app die bij elke druk
 op een knop een willekeurige quote ophaalt en toont. Klik [hier](../assets/quotes.json) voor de quotes, klik vervolgens
 op "Raw" en kopieer dan de URL
+
+**Functionaliteiten**
 
 - De app bevat een `Pressable` knop waarmee je een nieuwe quote kunt laden.
 - De quote wordt bijgewerkt zodra de knop wordt ingedrukt.
