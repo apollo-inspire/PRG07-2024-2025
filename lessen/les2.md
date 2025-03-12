@@ -23,13 +23,13 @@
 React Native is een framework waarmee je mobiele apps kunt bouwen met JavaScript en React. In plaats van HTML en CSS
 worden native UI-componenten gebruikt, waardoor de app eruitziet en aanvoelt als een echte native app.
 
-React Native werkt met een _bridge_, een tussenlaag die zorgt dat JavaScript de native API aan kan spreken. Hierdoor
-kan je met JavaScript direct communiceren met de functies van een mobiel besturingssysteem, zoals toegang tot de camera
-of GPS.
+React Native werkt met een _bridge_, een tussenlaag die zorgt dat JavaScript de native API aan kan spreken. Hierdoor kan
+je met JavaScript direct communiceren met de functies van een mobiel besturingssysteem, zoals toegang tot de camera of
+GPS.
 
-Doordat er een bridge is voor Android en voor iOS kan je tijdens de ontwikkeling generieke elementen gebruiken. In
-React Native heb je bijvoorbeeld het component `<Button>`, dat op Android vertaald wordt naar `android.widget.Button`
-en op iOS naar `UIButton`.
+Doordat er een bridge is voor Android en voor iOS kan je tijdens de ontwikkeling generieke elementen gebruiken. In React
+Native heb je bijvoorbeeld het component `<Button>`, dat op Android vertaald wordt naar `android.widget.Button` en op
+iOS naar `UIButton`.
 
 <br><br>
 
@@ -129,21 +129,22 @@ Nuttige links: [Pressable](https://reactnative.dev/docs/pressable),
 
 ### Opdracht 2.5 - Flexbox
 
-[Installeer](../guides/installatie.md) een nieuwe Expo app. <br> Bouw onderstaand ontwerp na. Het gaat daarbij vooral
-om de plaatsing van de elementen. Je mag de kleuren aanpassen aan je eigen smaak en je favoriete film gebruiken.
+[Installeer](../guides/installatie.md) een nieuwe Expo app. <br> Bouw onderstaand ontwerp na. Het gaat daarbij vooral om
+de plaatsing van de elementen. Je mag de kleuren aanpassen aan je eigen smaak en je favoriete of serie gebruiken.
 
 <img src="../assets/screenshot2_5.png" width="500" alt="screenshot" style="border:5px solid black; border-radius: 20px"/>
 
-Nuttige links: [Flexbox](https://reactnative.dev/docs/flexbox)
+Nuttige links: [Flexbox](https://reactnative.dev/docs/flexbox),
+[SafeArea](https://docs.expo.dev/versions/latest/sdk/safe-area-context/)
 
 <br><br>
 
 ### Opdracht 2.6 - Dark Mode
 
-Breid de app van opdracht 5 uit met een **switch** waarmee je kunt wisselen tussen **light mode** en **dark mode**.
-Zorg dat de weergave direct verandert wanneer de gebruiker de switch omzet.
+Breid de app van opdracht 5 uit met een **switch** waarmee je kunt wisselen tussen **light mode** en **dark mode**. Zorg
+dat de weergave direct verandert wanneer de gebruiker de switch omzet.
 
-In een latere les leer je hoe je deze instelling kunt opslaan op het apparaat, zodat de voorkeur behouden blijft, ook
-na het opnieuw opstarten van de app.
+In een latere les leer je hoe je deze instelling kunt opslaan op het apparaat, zodat de voorkeur behouden blijft, ook na
+het opnieuw opstarten van de app.
 
 Nuttige links: [Switch](https://reactnative.dev/docs/switch)

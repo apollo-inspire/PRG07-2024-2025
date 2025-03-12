@@ -2,8 +2,8 @@
 
 - [Les 1](#les-1)
   - [JavaScript](#javascript)
-  - [Opdracht 1.1: Mini-puzzels](#opdracht-11-mini-puzzels)
-  - [Opdracht 1.2: Overzicht van Emoji's 🤯](#opdracht-12-overzicht-van-emojis-)
+  - [Opdracht 1.1 - Mini-puzzels](#opdracht-11---mini-puzzels)
+  - [Opdracht 1.2 - Overzicht van Emoji's 🤯](#opdracht-12---overzicht-van-emojis-)
   - [Frameworks](#frameworks)
     - [Opdracht 1.3 - Mini React](#opdracht-13---mini-react)
 
@@ -27,7 +27,7 @@
 
 <br><br>
 
-## Opdracht 1.1: Mini-puzzels
+## Opdracht 1.1 - Mini-puzzels
 
 Deze opdracht bestaat uit een reeks **JavaScript mini-puzzels**, waarbij elke puzzel zich richt op een specifieke
 techniek binnen JavaScript. Dit is een oefening om belangrijke concepten te herhalen en toe te passen in kleine,
@@ -40,13 +40,12 @@ gerichte codevoorbeelden.
 1. Kopieer de [startcode van de puzzels](../startcode/les1/puzzels.js) naar een eigen document.
 2. Elke puzzel begint met een titel en een korte uitleg in **commentaar**.
 3. Onder de uitleg staat `// Schrijf hier de code...`. **Vervang dit door jouw oplossing.**
-4. Onder de code staan **console.logs** die de code testen. **Haal deze uit commentaar** om je oplossing te
-   controleren.
+4. Onder de code staan **console.logs** die de code testen. **Haal deze uit commentaar** om je oplossing te controleren.
 5. Test je code door het bestand met node te starten (`node puzzels.js`), of druk op de Run-knop in PhpStorm.
 
 <br><br>
 
-## Opdracht 1.2: Overzicht van Emoji's 🤯
+## Opdracht 1.2 - Overzicht van Emoji's 🤯
 
 Je gaat een kleine Javascript applicatie bouwen die je via nodeJS aan gaat roepen. In deze applicatie ga je een lijst
 tonen van beschikbare emoji's met hun bijbehorende categorie, htmlCode en unicode. Je geeft 2 argumenten mee aan dit
@@ -123,14 +122,13 @@ Download de startcode, maar run het project nog niet: https://github.com/HR-CMGT
    main.js, en maak een tekening van de volgorde waarin functies aangeroepen worden en met welke argumenten.
 3. Wat denk je dat het resultaat is?
 4. Installeer de node modules (`npm install`) en run het project (`npm run dev`). Klopt je antwoord van vraag 3?
-5. React maakt gebruik van JSX. Onderwater creëren JSX-tags _elementen_ (m.b.v. de functie `createElement`) met een
-   type (de html-tag), props (object met attributen), en eventuele children (child elementen of tekst content).
-   React-mini heeft helaas nog geen JSX ondersteuning dus we moeten `createElement` zelf aanroepen om html en functie
-   elementen te maken. Voeg aan de App een `main` toe met daarin een `section` met een `h1` en een `p`, om hiermee te
-   oefenen.
+5. React maakt gebruik van JSX. Onderwater creëren JSX-tags _elementen_ (m.b.v. de functie `createElement`) met een type
+   (de html-tag), props (object met attributen), en eventuele children (child elementen of tekst content). React-mini
+   heeft helaas nog geen JSX ondersteuning dus we moeten `createElement` zelf aanroepen om html en functie elementen te
+   maken. Voeg aan de App een `main` toe met daarin een `section` met een `h1` en een `p`, om hiermee te oefenen.
 6. Voeg ook een `button` toe met een alert. Tip: `onclick` is een property van button.
-7. Geef React-mini een `useState` functie die een initiële waarde als parameter verwacht en deze opslaat. Daarna
-   returnt hij deze waarde. Maak vervolgens de variabele `counter` aan met jouw useState functie (dus:
+7. Geef React-mini een `useState` functie die een initiële waarde als parameter verwacht en deze opslaat. Daarna returnt
+   hij deze waarde. Maak vervolgens de variabele `counter` aan met jouw useState functie (dus:
    `const [counter, setCounter] = useState(0);`) aan het begin van de App-component om een counter in de App te tonen,
    die momenteel nog niet werkt maar altijd de initiele waarde 0 toont. NB. Omdat we alleen een waarde returnen, is
    `setCounter` natuurlijk `undefined`, dit ga je in de volgende stap implementeren.

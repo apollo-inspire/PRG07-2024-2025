@@ -6,9 +6,9 @@
     - [Bottom Tabs Navigator](#bottom-tabs-navigator)
   - [Lijsten in React Native](#lijsten-in-react-native)
     - [List Views](#list-views)
-  - [Opdracht 3.1: Navigeren tussen twee schermen](#opdracht-31-navigeren-tussen-twee-schermen)
-  - [Opdracht 3.2: Navigeren vanuit een statische lijst](#opdracht-32-navigeren-vanuit-een-statische-lijst)
-  - [Opdracht 3.3: Navigeren vanuit een dynamische lijst](#opdracht-33-navigeren-vanuit-een-dynamische-lijst)
+  - [Opdracht 3.1 - Navigeren tussen twee schermen](#opdracht-31---navigeren-tussen-twee-schermen)
+  - [Opdracht 3.2 - Navigeren vanuit een statische lijst](#opdracht-32---navigeren-vanuit-een-statische-lijst)
+  - [Opdracht 3.3 - Navigeren vanuit een dynamische lijst](#opdracht-33---navigeren-vanuit-een-dynamische-lijst)
 
 ## Navigatie in React Native
 
@@ -65,7 +65,7 @@ https://reactnative.dev/docs/using-a-listview
 
 <br><br>
 
-## Opdracht 3.1: Navigeren tussen twee schermen
+## Opdracht 3.1 - Navigeren tussen twee schermen
 
 Bouw een React Native-app met twee schermen en gebruik een **Stack Navigator** om ertussen te navigeren.
 
@@ -78,7 +78,7 @@ Bouw een React Native-app met twee schermen en gebruik een **Stack Navigator** o
 
 <br><br>
 
-## Opdracht 3.2: Navigeren vanuit een statische lijst
+## Opdracht 3.2 - Navigeren vanuit een statische lijst
 
 Bouw een React Native-app met twee schermen en een **statische lijst** met gegevens op het eerste scherm. Gebruik een
 **Stack Navigator** om naar het tweede scherm te navigeren.
@@ -93,7 +93,7 @@ Bouw een React Native-app met twee schermen en een **statische lijst** met gegev
 
 <br><br>
 
-## Opdracht 3.3: Navigeren vanuit een dynamische lijst
+## Opdracht 3.3 - Navigeren vanuit een dynamische lijst
 
 Bouw een React Native-app met twee schermen en een lijst met notes of chess spots op het eerste scherm. Gebruik een
 **Stack Navigator** om naar het tweede scherm te navigeren.
