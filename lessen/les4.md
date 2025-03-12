@@ -4,7 +4,7 @@
   - [Persistent data](#persistent-data)
   - [Gebruikersinvoer](#gebruikersinvoer)
   - [Opdracht 4.1](#opdracht-41)
-  - [Opdracht 4.2: Persoonlijke Welkomstboodschap](#opdracht-42-persoonlijke-welkomstboodschap)
+  - [Opdracht 4.2: Settings \& AsyncStorage](#opdracht-42-settings--asyncstorage)
   - [Opdracht 4.3](#opdracht-43)
 
 ## Persistent data
@@ -48,26 +48,37 @@ Safe Area 'formulieren' Numeriek / Alfa
 Zorg dat de keuze tussen light en dark mode van opdracht 2.6 bewaard blijft, ook als de app afgesloten en opnieuw
 opgestart wordt.
 
-## Opdracht 4.2: Persoonlijke Welkomstboodschap
+## Opdracht 4.2: Settings & AsyncStorage
 
 Bouw een React Native-app met **twee schermen** en gebruik een **Stack Navigator**. Het tweede scherm is een
-**settingsscherm** waarin de gebruiker een naam kan invoeren. De naam wordt vervolgens weergegeven in een persoonlijke
-welkomstboodschap op het eerste scherm.
+**settingsscherm** waarin de gebruiker een naam en een leeftijd kan invoeren. Deze gegevens moeten vervolgens worden
+weergegeven op het eerste scherm.
 
-- **Scherm 1** toont een **algemene welkomstboodschap**.
+**Deel 1**
+
+- **Scherm 1** toont in eerste instantie de melding `Nog geen gegevens bekend` wanneer er nog geen settings zijn
+  opgeslagen in de **AsyncStorage**.
 - Voeg in de **header** een knop toe met de tekst `Settings`, die **Scherm 2** opent.
-- **Scherm 2** bevat een **invoerveld** waarin de gebruiker een naam kan typen.
-- Na drukken op de knop **Save** moet je terug navigeren naar **Scherm 1**, wordt de algemene boodschap aangepast en
-  wordt de naam weergegeven.
-- De naam wordt **nog niet opgeslagen** en gaat verloren bij het afsluiten van de app.
-- EDIT: ook settings inladen vanuit asynstorage + numeriek veld voor leeftijd
+- **Scherm 2** bevat twee **invoervelden** om een naam en een leeftijd in te voeren. Zorg ervoor dat het invoerveld voor
+  de leeftijd een numeriek veld, zodat er alleen cijfers ingevoerd kunnen worden. Tot slot bevat dit scherm de knop
+  **Opslaan**.
+- Na drukken op de knop **Opslaan** moet je terug navigeren naar **Scherm 1**, waarbij de naam en leeftijd als
+  parameters meegestuurd moeten worden.
+  - Let op: standaard wordt er ook een back button getoond links in de header. Wanneer hierop wordt gedrukt hoeven de
+    settings niet te worden meegestuurd, dus alleen wanneer op de knop **Opslaan** wordt gedrukt.
+- Toon op **Scherm 1** de tekst `Hallo [NAAM], jij bent [LEEFTIJD] jaar oud.`, waarbij de placeholders vervangen moeten
+  worden door de ingevoerde settings.
 
-- Nu is het tijd om de naam op te slaan met **AsyncStorage**. Zorg ervoor dat bij het openen van **Scherm 1** de
-  opgeslagen naam wordt opgehaald en weergegeven. De naam blijft behouden, ook na het afsluiten en opnieuw opstarten van
-  de app.
+<br>
+
+**Deel 2**
+
+- De settings worden nu op **Scherm 1** getoond, maar wanneer je de app opnieuw opstart dan zijn deze settings weer weg.
+  Zorg er daarom voor dat deze worden opgeslagen in de **AsyncStorage**, zodat ze ook na een herstart van de app worden
+  getoond op **Scherm 1**.
+- Zorg er ook voor dat de invoervelden op **Scherm 2** worden ingevuld met de gegevens uit de **AsyncStorage**
 
 Nuttige links: [Header buttons](https://reactnavigation.org/docs/header-buttons/),
-[useFocusEffect](https://reactnavigation.org/docs/use-focus-effect/),
 [Passing params to a previous screen](https://reactnavigation.org/docs/params/#passing-params-to-a-previous-screen)
 
 ## Opdracht 4.3
