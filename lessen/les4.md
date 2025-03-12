@@ -56,8 +56,8 @@ weergegeven op het eerste scherm.
 
 **Deel 1**
 
-- **Scherm 1** toont in eerste instantie de melding `Nog geen gegevens bekend` wanneer er nog geen settings zijn
-  opgeslagen in de **AsyncStorage**.
+- **Scherm 1** toont in eerste instantie de melding `Nog niet alle gegevens zijn bekend.` wanneer er nog geen settings
+  zijn opgeslagen in de **AsyncStorage**.
 - Voeg in de **header** een knop toe met de tekst `Settings`, die **Scherm 2** opent.
 - **Scherm 2** bevat twee **invoervelden** om een naam en een leeftijd in te voeren. Zorg ervoor dat het invoerveld voor
   de leeftijd een numeriek veld, zodat er alleen cijfers ingevoerd kunnen worden. Tot slot bevat dit scherm de knop
@@ -69,6 +69,9 @@ weergegeven op het eerste scherm.
 - Toon op **Scherm 1** de tekst `Hallo [NAAM], jij bent [LEEFTIJD] jaar oud.`, waarbij de placeholders vervangen moeten
   worden door de ingevoerde settings.
 
+  Nuttige links: [Header buttons](https://reactnavigation.org/docs/header-buttons/),
+  [Passing params to a previous screen](https://reactnavigation.org/docs/params/#passing-params-to-a-previous-screen)
+
 <br>
 
 **Deel 2**
@@ -78,8 +81,13 @@ weergegeven op het eerste scherm.
   getoond op **Scherm 1**.
 - Zorg er ook voor dat de invoervelden op **Scherm 2** worden ingevuld met de gegevens uit de **AsyncStorage**
 
-Nuttige links: [Header buttons](https://reactnavigation.org/docs/header-buttons/),
-[Passing params to a previous screen](https://reactnavigation.org/docs/params/#passing-params-to-a-previous-screen)
+<br>
+
+**Deel 3: Picker**
+
+- Toon de leeftijden in een Picker. Je moet kunnen kiezen uit de leeftijd 0 t/m 100
+
+Nuttige links: [Picker](https://github.com/react-native-picker/picker) (AutoLinking is niet nodig)
 
 ## Opdracht 4.3
 
