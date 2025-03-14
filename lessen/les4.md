@@ -98,7 +98,7 @@ weergegeven op het eerste scherm.
 
 **Deel 3: Extra opdracht**
 
-- Toon de leeftijden in een Picker. Je moet kunnen kiezen uit de leeftijd 0 t/m 100
+- Toon de leeftijden in een Picker. Je moet kunnen kiezen uit de leeftijd 0 t/m 100.
 
 Nuttige links: [Picker](https://github.com/react-native-picker/picker) (AutoLinking is niet nodig)
 
@@ -108,8 +108,3 @@ Nuttige links: [Picker](https://github.com/react-native-picker/picker) (AutoLink
 
 Ga verder met je code van [opdracht 3.3](./les3.md#opdracht-33-navigeren-vanuit-een-dynamische-lijst). Voeg daaraan een
 Create, Update en Delete toe.
-
-Voeg op het settingsscherm ook de mogelijkheid toe om te switchen tussen light en dark mode en sla dit op in de
-AsyncStorage.
-
-Nuttige links: [React Navigation Themes](https://reactnavigation.org/docs/themes/)
