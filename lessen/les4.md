@@ -113,4 +113,5 @@ Nuttige links: [React Navigation Themes](https://reactnavigation.org/docs/themes
 ## Opdracht 4.3 - CRUD
 
 Ga verder met je code van [opdracht 3.3](./les3.md#opdracht-33-navigeren-vanuit-een-dynamische-lijst). Voeg daaraan een
-Create, Update en Delete toe.
+Create, Update en Delete toe. Zorg er met een `KeyboardAvoidingView` en een `ScrollView` voor dat er geen velden
+verstopt zitten achter het keyboard van je telefoon.
