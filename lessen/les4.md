@@ -13,7 +13,7 @@ In mobiele apps is het soms nodig om gegevens lokaal op te slaan, bijvoorbeeld g
 
 **AsyncStorage** is een eenvoudige key-value opslagmethode voor het opslaan van gegevens die tussen app-sessies behouden
 moeten blijven. Het is vergelijkbaar met localStorage in de browser, maar werkt asynchroon en ondersteunt grotere
-hoeveelheden data. <br> https://reactnavigation.org/docs/getting-started
+hoeveelheden data. <br> https://docs.expo.dev/versions/latest/sdk/async-storage/
 
 Voor gevoelige gegevens, zoals wachtwoorden of tokens, kan je beter **Expo Secure Storage** gebruiken. Dit slaat
 gegevens versleuteld op en maakt gebruik van de beveiligde opslagmechanismen van het besturingssysteem (bijv. de
@@ -56,6 +56,8 @@ gebruik je een `KeyboardAvoidingView`.
 Zorg dat de keuze tussen light en dark mode van [opdracht 2.6](./les2.md#opdracht-26---dark-mode) bewaard blijft, ook
 als de app afgesloten en opnieuw opgestart wordt.
 
+Nuttige links: [AsyncStorage](https://docs.expo.dev/versions/latest/sdk/async-storage/)
+
 <br>
 
 ## Opdracht 4.2 - Settings & AsyncStorage
@@ -66,11 +68,11 @@ weergegeven op het eerste scherm.
 
 **Deel 1**
 
-- **Scherm 1** toont in eerste instantie de melding `Nog niet alle gegevens zijn bekend.` wanneer er nog geen settings
+- **Scherm 1** toont in eerste instantie de melding `Nog niet alle gegevens zijn bekend.` wanneer nog niet alle settings
   zijn opgeslagen in de **AsyncStorage**.
 - Voeg in de **header** een knop toe met de tekst `Settings`, die **Scherm 2** opent.
 - **Scherm 2** bevat twee **invoervelden** om een naam en een leeftijd in te voeren. Zorg ervoor dat het invoerveld voor
-  de leeftijd een numeriek veld, zodat er alleen cijfers ingevoerd kunnen worden. Tot slot bevat dit scherm de knop
+  de leeftijd een numeriek veld is, zodat er alleen cijfers ingevoerd kunnen worden. Tot slot bevat dit scherm de knop
   **Opslaan**.
 - Na drukken op de knop **Opslaan** moet je terug navigeren naar **Scherm 1**, waarbij de naam en leeftijd als
   parameters meegestuurd moeten worden.
@@ -92,19 +94,24 @@ weergegeven op het eerste scherm.
 - De settings worden nu op **Scherm 1** getoond, maar wanneer je de app opnieuw opstart dan zijn deze settings weer weg.
   Zorg er daarom voor dat deze worden opgeslagen in de **AsyncStorage**, zodat ze ook na een herstart van de app worden
   getoond op **Scherm 1**.
-- Zorg er ook voor dat de invoervelden op **Scherm 2** worden ingevuld met de gegevens uit de **AsyncStorage**
+- Zorg er ook voor dat de invoervelden op **Scherm 2** worden ingevuld met de gegevens uit de **AsyncStorage**.
 
 <br>
 
 **Deel 3: Extra opdracht**
 
 - Toon de leeftijden in een Picker. Je moet kunnen kiezen uit de leeftijd 0 t/m 100.
+- Voeg op het settingsscherm ook de mogelijkheid toe om te switchen tussen light en dark mode en sla dit op in de
+  AsyncStorage. Zorg er daarbij voor dat alle kleuren op basis van de mode worden aangepast, ook die van de navigatie.
+  Dit kan je doen met lifting state up en prop drilling, of met de Context API.
 
-Nuttige links: [Picker](https://github.com/react-native-picker/picker) (AutoLinking is niet nodig)
+Nuttige links: [React Navigation Themes](https://reactnavigation.org/docs/themes/),
+[Picker](https://github.com/react-native-picker/picker) (AutoLinking is niet nodig)
 
 <br>
 
 ## Opdracht 4.3 - CRUD
 
 Ga verder met je code van [opdracht 3.3](./les3.md#opdracht-33-navigeren-vanuit-een-dynamische-lijst). Voeg daaraan een
-Create, Update en Delete toe.
+Create, Update en Delete toe. Zorg er met een `KeyboardAvoidingView` en een `ScrollView` voor dat er geen velden
+verstopt zitten achter het keyboard van je telefoon.

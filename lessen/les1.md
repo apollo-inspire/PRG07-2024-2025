@@ -37,7 +37,7 @@ gerichte codevoorbeelden.
 
 **Werkwijze**
 
-1. Kopieer de [startcode van de puzzels](../startcode/les1/puzzels.js) naar een eigen document.
+1. Kopieer de [startcode van de puzzels](../startcode/les1/puzzels.js) naar een eigen JavaScript-document.
 2. Elke puzzel begint met een titel en een korte uitleg in **commentaar**.
 3. Onder de uitleg staat `// Schrijf hier de code...`. **Vervang dit door jouw oplossing.**
 4. Onder de code staan **console.logs** die de code testen. **Haal deze uit commentaar** om je oplossing te controleren.
@@ -83,8 +83,8 @@ aangeroepen bestand), eraf gehaald worden en je alleen de argumenten overhoudt d
    met logische namen
 4. Plaats voor de `for...of` loop een `.filter` om de data te filteren op category. Gebruik de arrow notatie voor je
    callback functie.
-   - Gebruik als dit werkt een if statement om te voorkomen dat de data gefilterd wordt wanneer de category 'all' is.
-   - Vervang daarna het if statement door de `ternary operator`.
+   - Gebruik als dit werkt een `ternary operator` om te voorkomen dat de data gefilterd wordt wanneer de category 'all'
+     is.
 5. Gebruik `fetch` om de data van de daadwerkelijke API in te laden.
    - Het tweede argument bepaalt of je jouw eigen data of de data van de API gaat gebruiken.
    - Gebruik in deze versie nog de `.then()`/`.catch()` notatie.

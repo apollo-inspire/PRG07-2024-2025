@@ -56,7 +56,7 @@
 
 // Puzzel 6: Destructuring Arrays
 // Schrijf de function createGame die een array ontvangt met gegevens over de game.
-// Geef de volgende informatie over de game mee in deze volgende: de naam van de game, het max aantal players en het genre.
+// Geef de volgende informatie over de game mee in deze volgorde: de naam van de game, het max aantal players en het genre.
 // Gebruik array destructuring om de waarden gameName, maxPlayers en genre op te halen en terug te geven in een object.
 
 // Schrijf hier de code...

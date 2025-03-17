@@ -21,7 +21,8 @@ Maak je eerste project aan door het volgende commando uit te voeren:
 
 Update bij problemen eerst je npm: `npm install -g npm@latest`
 
-En daarna te bekijken met de Expo Go app op je telefoon, door in het project het volgende uit te voeren:
+Open het zojuist aangemaakte project in phpStorm. Daarna kun je de app bekijken met de Expo Go app op je telefoon,
+door in de terminal van je project het volgende uit te voeren:
 
 `npm run start`
 
