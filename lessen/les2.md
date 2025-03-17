@@ -130,7 +130,7 @@ Nuttige links: [Pressable](https://reactnative.dev/docs/pressable),
 ### Opdracht 2.5 - Flexbox
 
 [Installeer](../guides/installatie.md) een nieuwe Expo app. <br> Bouw onderstaand ontwerp na. Het gaat daarbij vooral om
-de plaatsing van de elementen. Je mag de kleuren aanpassen aan je eigen smaak en je favoriete of serie gebruiken.
+de plaatsing van de elementen. Je mag de kleuren aanpassen aan je eigen smaak en je favoriete film of serie gebruiken.
 
 <img src="../assets/screenshot2_5.png" width="500" alt="screenshot" style="border:5px solid black; border-radius: 20px"/>
 
