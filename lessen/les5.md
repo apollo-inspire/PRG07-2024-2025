@@ -54,14 +54,19 @@ device een app te installeren om een fake locatie in te stellen.
 
 ## Opdracht 5.1
 
-Toon een kaart met daarop de huidige locatie van de gebruiker (eventueel vanuit emulator), en zoom in op deze locatie.
+Toon een kaart met in het midden de Wijnhaven 99, en zoom daarop in. Toon ook de huidige locatie van de gebruiker (Tip:
+dit kan direct via de `MapView`).
+
+(MapView)[https://github.com/react-native-maps/react-native-maps/blob/master/docs/mapview.md]
 
 <br><br>
 
 ## Opdracht 5.2
 
-Volg de gebruiker als hij beweegt. De kaart blijft gecentreerd op de gebruiker, en laat een spoor (van markers) van
-markers zien waar de gebruiker geweest is.
+Zorg nu dat de kaart automatisch de kaart centreert op de locatie van de gebruiker, ook als de gebruiker beweegt. Laat
+met een spoor (van markers) zien waar de gebruiker geweest is als de gebruiker beweegt.
+
+(watchPositionAsync)[https://docs.expo.dev/versions/latest/sdk/location/#locationwatchpositionasyncoptions-callback]
 
 <br><br>
 
