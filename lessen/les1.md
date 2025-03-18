@@ -58,8 +58,10 @@ Dit doe je via je command line via het volgende commando:
 
 ```shell
 node script.js all api #toont alle data vanuit de API
-node script.js symbols own #filtert op categorie en toont eigen data
+node script.js symbols local #filtert op categorie en toont eigen data
 ```
+
+Let erop dat als je parameters wilt meegeven met spaties, dat je er quotes omheen zet.
 
 In je Javascript kun je bij het aanroepen van een script via Node, de argumenten op de volgende manier ophalen:
 
