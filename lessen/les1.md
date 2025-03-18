@@ -5,13 +5,13 @@
   - [Opdracht 1.1 - Mini-puzzels](#opdracht-11---mini-puzzels)
   - [Opdracht 1.2 - Overzicht van Emoji's 🤯](#opdracht-12---overzicht-van-emojis-)
   - [Frameworks](#frameworks)
-    - [Opdracht 1.3 - Mini React](#opdracht-13---mini-react)
+    - [Opdracht 1.3 - React Mini](#opdracht-13---react-mini)
 
 <br><br>
 
 ## JavaScript
 
-**AANTEKENING: onderwerpen om te herhalen:**
+**Onderwerpen om te herhalen:**
 
 - Ternary & nullish coalescing operators
 - Optional chaining
@@ -89,11 +89,9 @@ aangeroepen bestand), eraf gehaald worden en je alleen de argumenten overhoudt d
      is.
 5. Gebruik `fetch` om de data van de daadwerkelijke API in te laden.
    - Het tweede argument bepaalt of je jouw eigen data of de data van de API gaat gebruiken.
-   - Gebruik in deze versie nog de `.then()`/`.catch()` notatie.
-6. Schrijf de `fetch` om door gebruik te maken van `async`/`await` i.p.v. `.then()`/`.catch()`.
-7. Bedenk een slimme manier om beide scenario's (eigen data & API-data) dezelfde filter logica te laten gebruiken en
+6. Bedenk een slimme manier om beide scenario's (eigen data & API-data) dezelfde filter logica te laten gebruiken en
    dubbele code te voorkomen.
-8. Toon als category 'list' gebruikt wordt een lijst met alle beschikbare categorieën. Je output zijn nu dus geen
+7. Toon als category 'list' gebruikt wordt een lijst met alle beschikbare categorieën. Je output zijn nu dus geen
    emoji's meer, maar alle categorieën die bestaan.
 
 <br><br>
@@ -112,7 +110,7 @@ bij veranderingen. Of `useEffect` om code te laten uitvoeren op bepaalde momente
 
 <br><br>
 
-### Opdracht 1.3 - Mini React
+### Opdracht 1.3 - React Mini
 
 Om meer inzicht te krijgen in de werking van een framework, ga je uitzoeken hoe een mini-framework gebaseerd op React
 werkt, en ga je een hook-method schrijven voor dit framework.
@@ -151,8 +149,8 @@ Download de startcode, maar run het project nog niet: https://github.com/HR-CMGT
    `setCounter` nu nog `undefined`, dit ga je in de volgende stap implementeren.
 2. Zorg nu dat je `useState` ook een setter returnt. Dit is een functie die de opgeslagen waarde verandert en daarna de
    functie `reRender` aanroept. Het is belangrijk dat de waarde niet in de functie `useState` zelf wordt opgeslagen,
-   maar globaal (bedenk waarom!). Return naast de waarde nu ook de setter en gebruik deze om met de button de `count`
-   op te hogen (`count + 1`).
+   maar globaal (bedenk waarom!). Return naast de waarde nu ook de setter en gebruik deze om met de button de `count` op
+   te hogen (`count + 1`).
 3. Pas de setter aan zodat deze zowel een nieuwe waarde als een functie accepteert, vergelijkbaar met React.
    Bijvoorbeeld: (x) => x + 1.
 4. Deze `useState` kan maar één waarde bijhouden. Denk na over hoe je `useState` voor meerdere variabelen zou kunnen
