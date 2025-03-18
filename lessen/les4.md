@@ -7,6 +7,8 @@
   - [Opdracht 4.2 - Settings \& AsyncStorage](#opdracht-42---settings--asyncstorage)
   - [Opdracht 4.3 - CRUD](#opdracht-43---crud)
 
+<br><br>
+
 ## Persistent data
 
 In mobiele apps is het soms nodig om gegevens lokaal op te slaan, bijvoorbeeld gebruikersvoorkeuren of een inlogsessie.
@@ -39,17 +41,27 @@ SecureStore.setItemAsync(key, value);
 SecureStore.getItemAsync(key);
 -->
 
+<br><br>
+
 ## Gebruikersinvoer
 
-Bij React Native werkt gebruikersinvoer vergelijkbaar met formulieren in gewoon React met state-variabelen om de
-ingevoerde waarden op te slaan.
+In React Native werkt gebruikersinvoer met formulieren op een vergelijkbare manier als in de normale React. Je gebruikt
+state-variabelen om de ingevoerde waarden op te slaan. Hiervoor gebruik je het component `TextInput`.
 
-Standaard gaat `TextInput` van tekst uit, maar je kunt ook kiezen voor een numeriek toetsenbord als er getallen
-ingevoerd moeten worden (`keyboardType="numeric"`). Ook is het mogelijk om meerdere regels input in te laten voeren met
-`multiline={true}`. Op een mobiel scherm kan het toetsenbord soms over invoervelden heen vallen. Om dit te voorkomen,
-gebruik je een `KeyboardAvoidingView`.
+Een `TextInput` accepteert standaard één regel aan tekstinvoer, zoals je gewend bent van de `<input>` in HTML, maar je
+kunt het gedrag aanpassen:
+
+- **Numeriek toetsenbord**: Gebruik `keyboardType="numeric"` als er alleen getallen ingevoerd moeten worden
+  (vergelijkbaar in HTML met `<input type="number">`)
+- **Meerdere regels**: Stel `multiline={true}` in om invoer over meerdere regels toe te staan (vergelijkbaar in HTML met
+  een `<textarea>`).
 
 <br>
+
+Op mobiele apparaten kan het toetsenbord over invoervelden heen vallen. Om dit te voorkomen, gebruik je een
+`KeyboardAvoidingView`.
+
+<br><br>
 
 ## Opdracht 4.1 - Light/dark mode & AsyncStorage
 
@@ -58,7 +70,7 @@ als de app afgesloten en opnieuw opgestart wordt.
 
 Nuttige links: [AsyncStorage](https://docs.expo.dev/versions/latest/sdk/async-storage/)
 
-<br>
+<br><br>
 
 ## Opdracht 4.2 - Settings & AsyncStorage
 
@@ -70,15 +82,15 @@ weergegeven op het eerste scherm.
 
 - **Scherm 1** toont in eerste instantie de melding `Nog niet alle gegevens zijn bekend.` wanneer nog niet alle settings
   zijn opgeslagen in de **AsyncStorage**.
-- Voeg in de **header** een knop toe met de tekst `Settings`, die **Scherm 2** opent.
+- Voeg in de **header** aan de rechterkant een knop toe met de tekst `Settings`, die **scherm 2** opent.
 - **Scherm 2** bevat twee **invoervelden** om een naam en een leeftijd in te voeren. Zorg ervoor dat het invoerveld voor
   de leeftijd een numeriek veld is, zodat er alleen cijfers ingevoerd kunnen worden. Tot slot bevat dit scherm de knop
   **Opslaan**.
-- Na drukken op de knop **Opslaan** moet je terug navigeren naar **Scherm 1**, waarbij de naam en leeftijd als
+- Na drukken op de knop **Opslaan** moet je terug navigeren naar **scherm 1**, waarbij de naam en leeftijd als
   parameters meegestuurd moeten worden.
   - Let op: standaard wordt er ook een back button getoond links in de header. Wanneer hierop wordt gedrukt hoeven de
     settings niet te worden meegestuurd, dus alleen wanneer op de knop **Opslaan** wordt gedrukt.
-- Toon op **Scherm 1** de tekst `Hallo [NAAM], jij bent [LEEFTIJD] jaar oud.`, waarbij de placeholders vervangen moeten
+- Toon op **scherm 1** de tekst `Hallo [NAAM], jij bent [LEEFTIJD] jaar oud.`, waarbij de placeholders vervangen moeten
   worden door de ingevoerde settings.
 
   Nuttige links: [Header buttons](https://reactnavigation.org/docs/header-buttons/),
@@ -91,10 +103,11 @@ weergegeven op het eerste scherm.
 
 **Deel 2**
 
-- De settings worden nu op **Scherm 1** getoond, maar wanneer je de app opnieuw opstart dan zijn deze settings weer weg.
+- De settings worden nu op **scherm 1** getoond, maar wanneer je de app opnieuw opstart dan zijn deze settings weer weg.
   Zorg er daarom voor dat deze worden opgeslagen in de **AsyncStorage**, zodat ze ook na een herstart van de app worden
-  getoond op **Scherm 1**.
-- Zorg er ook voor dat de invoervelden op **Scherm 2** worden ingevuld met de gegevens uit de **AsyncStorage**.
+  getoond op **scherm 1**.
+- Zorg er ook voor dat bij het openen van **scherm 2** de invoervelden worden ingevuld met de gegevens uit de
+  **AsyncStorage**.
 
 <br>
 
@@ -114,4 +127,4 @@ Nuttige links: [React Navigation Themes](https://reactnavigation.org/docs/themes
 
 Ga verder met je code van [opdracht 3.3](./les3.md#opdracht-33-navigeren-vanuit-een-dynamische-lijst). Voeg daaraan een
 Create, Update en Delete toe. Zorg er met een `KeyboardAvoidingView` en een `ScrollView` voor dat er geen velden
-verstopt zitten achter het keyboard van je telefoon.
+verstopt zitten achter het toetsenbord van je telefoon.

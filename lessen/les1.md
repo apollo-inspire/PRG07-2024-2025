@@ -134,8 +134,11 @@ Download de startcode, maar run het project nog niet: https://github.com/HR-CMGT
 1. React maakt gebruik van JSX. Onderwater creëren JSX-tags _elementen_ (m.b.v. de functie `createElement`) met een type
    (de html-tag), props (object met attributen), en eventuele children (child elementen of tekst content). React-mini
    heeft helaas nog geen JSX ondersteuning dus we moeten `createElement` zelf aanroepen om html en functie elementen te
-   maken. Voeg aan de App een `main` toe met daarin een `section` met een `h1` en een `p`, om hiermee te oefenen.
+   maken. Voeg aan de App een `main` toe met daarin een `section` met een `h2` en een `p`, om hiermee te oefenen.
 2. Voeg ook een `button` toe met een alert. Tip: `onclick` is een property van button.
+3. Maak nu een component aan genaamd `MyProfile`. Return hierin een `section` maakt met daarin een `h2` en een `p`. Zet
+   in de **h1** een tekst als `Mijn profiel` en in de **p** een tekst als `Mijn naam is [NAAM]`. Voeg dit component toe
+   aan de `App` in de `main`.
 
 <br>
 
@@ -145,11 +148,11 @@ Download de startcode, maar run het project nog niet: https://github.com/HR-CMGT
    hij deze waarde. Maak vervolgens de variabele `counter` aan met jouw useState functie (dus:
    `const [counter, setCounter] = useState(0);`) aan het begin van de App-component om een counter in de App te tonen,
    die momenteel nog niet werkt maar altijd de initiele waarde 0 toont. NB. Omdat we alleen een waarde returnen, is
-   `setCounter` natuurlijk `undefined`, dit ga je in de volgende stap implementeren.
+   `setCounter` nu nog `undefined`, dit ga je in de volgende stap implementeren.
 2. Zorg nu dat je `useState` ook een setter returnt. Dit is een functie die de opgeslagen waarde verandert en daarna de
    functie `reRender` aanroept. Het is belangrijk dat de waarde niet in de functie `useState` zelf wordt opgeslagen,
-   maar globaal ( bedenk waarom!). Return naast de waarde nu ook de setter en gebruik deze om met de button de `count`
-   op te hogen ( `count + 1`).
+   maar globaal (bedenk waarom!). Return naast de waarde nu ook de setter en gebruik deze om met de button de `count`
+   op te hogen (`count + 1`).
 3. Pas de setter aan zodat deze zowel een nieuwe waarde als een functie accepteert, vergelijkbaar met React.
    Bijvoorbeeld: (x) => x + 1.
 4. Deze `useState` kan maar één waarde bijhouden. Denk na over hoe je `useState` voor meerdere variabelen zou kunnen

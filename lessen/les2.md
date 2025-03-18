@@ -57,10 +57,10 @@ weg te laten.
 
 ### Opdracht 2.1 - Hello World
 
-Tijdens deze les zul je meerdere opdrachten uitvoeren. Voor iedere opdracht voer je opnieuw onderstaande installatie
-uit, wat dus betekent dat je voor iedere opdracht een nieuwe app maakt.
+Tijdens deze les zul je meerdere opdrachten uitvoeren. Voor iedere opdracht voer je opnieuw de installatie uit, wat dus
+betekent dat je voor iedere opdracht een nieuwe app maakt.
 
-Maak je eerste Expo app door de [installatie van les 2](../guides/installatie.md) te volgen.
+Maak je eerste Expo app door de [installatie van les 2](../guides/installatie.md#les-2) te volgen.
 
 - Test de app op je telefoon
 - Verander de standaard tekst naar 'Hello World', of een eigen creatieve tekst.
@@ -69,8 +69,8 @@ Maak je eerste Expo app door de [installatie van les 2](../guides/installatie.md
 
 ### Opdracht 2.2 - Bezoekersteller
 
-[Installeer](../guides/installatie.md) een nieuwe Expo app. <br> Bouw vervolgens een React Native-app waarmee je het
-aantal mensen kunt bijhouden dat een ruimte in- en uitloopt (bijvoorbeeld omdat er maar maximaal 200 mensen tegelijk
+[Installeer](../guides/installatie.md#les-2) een nieuwe Expo app. <br> Bouw vervolgens een React Native-app waarmee je
+het aantal mensen kunt bijhouden dat een ruimte in- en uitloopt (bijvoorbeeld omdat er maar maximaal 200 mensen tegelijk
 aanwezig mogen zijn van de brandweer).
 
 **Functionaliteiten**
@@ -97,9 +97,9 @@ Nuttige links: [View](https://reactnative.dev/docs/view), [Text](https://reactna
 
 ### Opdracht 2.3 - Wisselende Achtergrondkleur
 
-[Installeer](../guides/installatie.md) een nieuwe Expo app. <br> Bouw vervolgens een React Native-app met een enkele
-**Button** die de achtergrondkleur van het scherm verandert in een \* \*vast patroon\*\*. Zodra de reeks kleuren is
-doorlopen, begint deze opnieuw.
+[Installeer](../guides/installatie.md#les-2) een nieuwe Expo app. <br> Bouw vervolgens een React Native-app met een
+enkele **Button** die de achtergrondkleur van het scherm verandert in een \* \*vast patroon\*\*. Zodra de reeks kleuren
+is doorlopen, begint deze opnieuw.
 
 **Functionaliteiten**
 
@@ -112,9 +112,9 @@ doorlopen, begint deze opnieuw.
 
 ### Opdracht 2.4 - Random Quote Generator
 
-[Installeer](../guides/installatie.md) een nieuwe Expo app. <br> Bouw vervolgens een React Native-app die bij elke druk
-op een knop een willekeurige quote ophaalt en toont. Klik [hier](../assets/quotes.json) voor de quotes, klik vervolgens
-op "Raw" en kopieer dan de URL
+[Installeer](../guides/installatie.md#les-2) een nieuwe Expo app. <br> Bouw vervolgens een React Native-app die bij elke
+druk op een knop een willekeurige quote ophaalt en toont. Klik [hier](../assets/quotes.json) voor de quotes, klik
+vervolgens op "Raw" en kopieer dan de URL
 
 **Functionaliteiten**
 
@@ -129,8 +129,9 @@ Nuttige links: [Pressable](https://reactnative.dev/docs/pressable),
 
 ### Opdracht 2.5 - Flexbox
 
-[Installeer](../guides/installatie.md) een nieuwe Expo app. <br> Bouw onderstaand ontwerp na. Het gaat daarbij vooral om
-de plaatsing van de elementen. Je mag de kleuren aanpassen aan je eigen smaak en je favoriete film of serie gebruiken.
+[Installeer](../guides/installatie.md#les-2) een nieuwe Expo app. <br> Bouw onderstaand ontwerp na. Het gaat daarbij
+vooral om de plaatsing van de elementen. Je mag de kleuren aanpassen aan je eigen smaak en je favoriete film of serie
+gebruiken.
 
 <img src="../assets/screenshot2_5.png" width="500" alt="screenshot" style="border:5px solid black; border-radius: 20px"/>
 
@@ -141,7 +142,7 @@ Nuttige links: [Flexbox](https://reactnative.dev/docs/flexbox),
 
 ### Opdracht 2.6 - Dark Mode
 
-Breid de app van opdracht 5 uit met een **switch** waarmee je kunt wisselen tussen **light mode** en **dark mode**. Zorg
+Breid de app van opdracht 2.5 uit met een `Switch` waarmee je kunt wisselen tussen **light mode** en **dark mode**. Zorg
 dat de weergave direct verandert wanneer de gebruiker de switch omzet.
 
 In een latere les leer je hoe je deze instelling kunt opslaan op het apparaat, zodat de voorkeur behouden blijft, ook na

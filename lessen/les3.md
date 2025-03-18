@@ -10,6 +10,8 @@
   - [Opdracht 3.2 - Navigeren vanuit een statische lijst](#opdracht-32---navigeren-vanuit-een-statische-lijst)
   - [Opdracht 3.3 - Navigeren vanuit een dynamische lijst](#opdracht-33---navigeren-vanuit-een-dynamische-lijst)
 
+<br><br>
+
 ## Navigatie in React Native
 
 In React Native werkt navigatie anders dan in een browser. Er zijn geen URL’s zoals op het web, maar in plaats daarvan
@@ -22,19 +24,17 @@ een product de details doorsturen naar het volgende scherm.
 
 Een `Stack Navigator` werkt als een stapel schermen, waarbij alleen het bovenste scherm zichtbaar is voor de gebruiker.
 Wanneer je naar een nieuw scherm gaat, wordt dit **bovenop de stapel** geplaatst. Het vorige scherm blijft eronder staan
-en verdwijnt niet uit het geheugen. Wanneer je op de terug-knop drukt, dan wordt het bovenste scherm **weggehaald**, en
+en verdwijnt niet uit het geheugen. Wanneer je op de terug-knop drukt, dan wordt het bovenste scherm **weggehaald** en
 zie je dus weer het vorige scherm.
 
 Dit is vergelijkbaar met hoe een browsergeschiedenis werkt: als je een nieuwe pagina opent, kun je met de terug-knop
-weer naar de vorige pagina.
-
-https://reactnavigation.org/docs/stack-navigator
+weer naar de vorige pagina. <br> https://reactnavigation.org/docs/stack-navigator
 
 ### Bottom Tabs Navigator
 
 Een `Bottom Tabs Navigator` maakt een navigatiebalk onderin het scherm met tabbladen. Dit zie je vaak in apps zoals
-Instagram of WhatsApp. Binnen elke tab zou je weer een Stack Navigator gebruiken als er binnen die tab tussen
-verschillende schermen genavigeerd moet kunnen worden. 🔗 https://reactnavigation.org/docs/bottom-tab-navigator
+Instagram of WhatsApp. Binnen elke tab zou je weer een Stack Navigator kunnen gebruiken als er binnen die tab tussen
+verschillende schermen genavigeerd moet worden. <br> https://reactnavigation.org/docs/bottom-tab-navigator
 
 <br><br>
 
@@ -60,8 +60,7 @@ React Native biedt twee soorten List Views:
 - **`FlatList`** → Het standaardcomponent voor het weergeven van een lijst met items.
 - **`SectionList`** → Voor een lijst met gegroepeerde items, zoals een alfabetische lijst met secties per letter.
 
-https://reactnative.dev/docs/scrollview<br> https://reactnative.dev/docs/safeareaview<br>
-https://reactnative.dev/docs/using-a-listview
+https://reactnative.dev/docs/scrollview<br> https://reactnative.dev/docs/using-a-listview
 
 <br><br>
 
@@ -71,8 +70,8 @@ Bouw een React Native-app met twee schermen en gebruik een **Stack Navigator** o
 
 **Functionaliteiten**
 
-- Scherm 1 bevat een **counter** en een **button** om de waarde van de counter te verhogen.
-- Scherm 1 bevat daarnaast een **button** die **scherm 2** opent.
+- **Scherm 1** bevat een **counter** en een **button** om de waarde van de counter te verhogen.
+- Daarnaast bevat **scherm 1** ook een **button** die **scherm 2** opent.
 - Wanneer je naar **scherm 2** navigeert, wordt de **huidige waarde van de counter** als parameter meegestuurd.
 - Op **scherm 2** wordt deze waarde weergegeven.
 
@@ -81,14 +80,14 @@ Bouw een React Native-app met twee schermen en gebruik een **Stack Navigator** o
 ## Opdracht 3.2 - Navigeren vanuit een statische lijst
 
 Bouw een React Native-app met twee schermen en een **statische lijst** met gegevens op het eerste scherm. Gebruik een
-**Stack Navigator** om naar het tweede scherm te navigeren.
+**Stack Navigator** om tussen de twee schermen te navigeren.
 
 **Functionaliteiten**
 
 - Maak of genereer een lijst met gegevens over een onderwerp naar keuze.
 - Toon op **scherm 1** de gegevens in een `FlatList`.
-- Wanneer een gebruiker op een item drukt moet **scherm 2** geopend worden en de details van het geselecteerde item
-  moeten als **parameter** worden meegegeven.
+- Wanneer de gebruiker op een item drukt wordt **scherm 2** geopend, waarbij de details van het geselecteerde item als
+  **parameter** worden meegegeven.
 - Geef de ontvangen gegevens weer op **scherm 2**.
 
 <br><br>
@@ -96,7 +95,7 @@ Bouw een React Native-app met twee schermen en een **statische lijst** met gegev
 ## Opdracht 3.3 - Navigeren vanuit een dynamische lijst
 
 Bouw een React Native-app met twee schermen en een lijst met notes of chess spots op het eerste scherm. Gebruik een
-**Stack Navigator** om naar het tweede scherm te navigeren.
+**Stack Navigator** om tussen de twee schermen te navigeren.
 
 **Functionaliteiten**
 
@@ -104,5 +103,5 @@ Bouw een React Native-app met twee schermen en een lijst met notes of chess spot
   de webservice.
   - Laat tijdens het ophalen van de data een loader zien met `ActivityIndicator`
 - Toon op **scherm 1** de gegevens in een `FlatList`.
-- Wanneer een gebruiker op een item drukt moet **scherm 2** geopend worden.
+- Wanneer de gebruiker op een item drukt moet **scherm 2** geopend worden.
 - Haal op **scherm 2** de details op van de geselecteerde note of chess spot en toon deze op het scherm.

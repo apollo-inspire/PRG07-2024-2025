@@ -15,14 +15,15 @@ Check of node en npm de juiste versie hebben:
 
 Als het goed is heb je alle vereisten al om met Expo te werken.
 
-Maak je eerste project aan door het volgende commando uit te voeren:
+Maak je eerste project aan door het volgende commando uit te voeren (waarbij je `newproject` vervangt voor de naam van
+jouw project):
 
 `npx create-expo-app newproject --template blank`
 
 Update bij problemen eerst je npm: `npm install -g npm@latest`
 
-Open het zojuist aangemaakte project in phpStorm. Daarna kun je de app bekijken met de Expo Go app op je telefoon,
-door in de terminal van je project het volgende uit te voeren:
+Open het zojuist aangemaakte project in PhpStorm. Daarna kun je de app bekijken met de Expo Go app op je telefoon, door
+in de terminal van je project het volgende uit te voeren:
 
 `npm run start`
 
