@@ -133,6 +133,8 @@ Nuttige links: [Pressable](https://reactnative.dev/docs/pressable),
 vooral om de plaatsing van de elementen. Je mag de kleuren aanpassen aan je eigen smaak en je favoriete film of serie
 gebruiken.
 
+Bonus: zorg ervoor dat de **Show spoiler** knopt werkt en de spoiler zichtbaar wordt.
+
 <img src="../assets/screenshot2_5.png" width="500" alt="screenshot" style="border:5px solid black; border-radius: 20px"/>
 
 Nuttige links: [Flexbox](https://reactnative.dev/docs/flexbox),

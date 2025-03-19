@@ -62,14 +62,23 @@ Toon een kaart met in het midden de locatie van ons schoolgebouw (Wijnhaven 99),
 daarop in. Toon ook de huidige locatie van de gebruiker (Tip: dit kan direct via de `MapView`).
 
 Nuttige links: [MapView](https://github.com/react-native-maps/react-native-maps/blob/master/docs/mapview.md),
-[Marker](https://github.com/react-native-maps/react-native-maps)
+[Marker](https://github.com/react-native-maps/react-native-maps),
+[Expo location](https://docs.expo.dev/versions/latest/sdk/location/)
 
 <br><br>
 
 ## Opdracht 5.2
 
 Zorg nu dat de kaart automatisch de kaart centreert op de locatie van de gebruiker, ook als de gebruiker beweegt. Laat
-met een spoor van markers zien waar de gebruiker is geweest als de gebruiker beweegt.
+vervolgens met een spoor van markers zien waar de gebruiker is geweest als de gebruiker beweegt. Hieronder zie je een
+voorbeeld (versneld afgespeeld).
+
+<img src="../assets/location-tracking.gif">
+
+_De markers verspringen steeds, maar dat komt <br>omdat er meer markers worden geplaatst dan <br>er getoond kunnen
+worden op dit zoomlevel._
+
+<br>
 
 Nuttige links:
 [watchPositionAsync](https://docs.expo.dev/versions/latest/sdk/location/#locationwatchpositionasyncoptions-callback)
