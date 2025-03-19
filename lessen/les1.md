@@ -37,7 +37,7 @@ gerichte codevoorbeelden.
 
 **Werkwijze**
 
-1. Kopieer de [startcode van de puzzels](../startcode/les1/puzzels.js) naar een eigen JavaScript-document.
+1. Kopieer de [startcode van de puzzels](../assets/puzzels.js) naar een eigen JavaScript-document.
 2. Elke puzzel begint met een titel en een korte uitleg in **commentaar**.
 3. Onder de uitleg staat `// Schrijf hier de code...`. **Vervang dit door jouw oplossing.**
 4. Onder de code staan **console.logs** die de code testen. **Haal deze uit commentaar** om je oplossing te controleren.
