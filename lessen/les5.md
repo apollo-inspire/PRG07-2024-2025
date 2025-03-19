@@ -14,8 +14,8 @@
 
 ## Maps
 
-React Native biedt ondersteuning voor het gebruik van kaarten in apps. Afhankelijk van het platform wordt automatisch de
-juiste kaartendienst gekozen:
+React Native biedt ondersteuning voor het gebruik van kaarten in apps. Afhankelijk van het platform wordt automatisch
+de juiste kaartendienst gekozen:
 
 - Google Maps voor Android
 - Apple Maps voor iOS
@@ -35,8 +35,8 @@ Mobiele apparaten kunnen hun locatie op verschillende manieren bepalen.
 ### Coarse Location (`LocationAccuracy.Low`)
 
 Maakt gebruik van wifi-netwerken, mobiele zendmasten en IP-adressen. Dit is minder nauwkeurig (vaak binnen enkele
-honderden meters), maar wel sneller en verbruikt minder energie en heeft dus een lager batterijverbruik. Gebruik dit als
-nauwkeurigheid niet zo belangrijk is, bijvoorbeeld voor een weer-app.
+honderden meters), maar wel sneller en verbruikt minder energie en heeft dus een lager batterijverbruik. Gebruik dit
+als nauwkeurigheid niet zo belangrijk is, bijvoorbeeld voor een weer-app.
 
 ### Fine Location (`LocationAccuracy.High`)
 
@@ -87,4 +87,4 @@ Nuttige links:
 
 ## Eindopdracht
 
-Uitleg en start eindopdracht.
+Start met de eindopdracht.

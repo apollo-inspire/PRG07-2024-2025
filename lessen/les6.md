@@ -1,7 +1,9 @@
 # Les 6
 
 ## Showcase
-Showcase Antwan en mobile specifieke onderwerpen
+
+Tijdens deze les worden de extra's gedemonstreerd.
 
 ## Eindopdracht
-Verder met eindopdracht
+
+Werk verder aan de eindopdracht.
