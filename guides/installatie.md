@@ -15,8 +15,8 @@ Check of node en npm de juiste versie hebben:
 
 Als het goed is heb je alle vereisten al om met Expo te werken.
 
-Maak je eerste project aan door het volgende commando uit te voeren (waarbij je `newproject` vervangt voor de naam van
-jouw project):
+Maak je eerste project aan door het volgende commando uit te voeren (vervang `newproject` voor de naam van jouw
+project):
 
 `npx create-expo-app newproject --template blank`
 
