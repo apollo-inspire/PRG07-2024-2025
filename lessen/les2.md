@@ -12,7 +12,7 @@
     - [Opdracht 2.1 - Hello World](#opdracht-21---hello-world)
     - [Opdracht 2.2 - Bezoekersteller](#opdracht-22---bezoekersteller)
     - [Opdracht 2.3 - Wisselende achtergrondkleur](#opdracht-23---wisselende-achtergrondkleur)
-    - [Opdracht 2.4 - Random Quote Generator](#opdracht-24---random-quote-generator)
+    - [Opdracht 2.4 - Random quote generator](#opdracht-24---random-quote-generator)
     - [Opdracht 2.5 - Flexbox](#opdracht-25---flexbox)
     - [Opdracht 2.6 - Dark Mode](#opdracht-26---dark-mode)
 
@@ -110,7 +110,7 @@ is doorlopen, begint deze opnieuw.
 
 <br><br>
 
-### Opdracht 2.4 - Random Quote Generator
+### Opdracht 2.4 - Random quote generator
 
 [Installeer](../guides/installatie.md#les-2) een nieuwe Expo app. <br> Bouw vervolgens een React Native-app die bij elke
 druk op een knop een lijst met quotes ophaalt en een willekeurige quote toont. Klik
