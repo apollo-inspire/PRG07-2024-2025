@@ -66,7 +66,8 @@ https://reactnative.dev/docs/scrollview<br> https://reactnative.dev/docs/using-a
 
 ## Opdracht 3.1 - Navigeren tussen twee schermen
 
-Bouw een React Native-app met twee schermen en gebruik een **Stack Navigator** om ertussen te navigeren.
+[Installeer](../guides/installatie.md#les-2) een nieuwe Expo app. <br> Bouw een React Native-app met twee schermen en
+gebruik een **Stack Navigator** om ertussen te navigeren.
 
 **Functionaliteiten**
 
@@ -79,8 +80,9 @@ Bouw een React Native-app met twee schermen en gebruik een **Stack Navigator** o
 
 ## Opdracht 3.2 - Navigeren vanuit een statische lijst
 
-Bouw een React Native-app met twee schermen en een **statische lijst** met gegevens op het eerste scherm. Gebruik een
-**Stack Navigator** om tussen de twee schermen te navigeren.
+[Installeer](../guides/installatie.md#les-2) een nieuwe Expo app. <br> Bouw een React Native-app met twee schermen en
+een **statische lijst** met gegevens op het eerste scherm. Gebruik een **Stack Navigator** om tussen de twee schermen te
+navigeren.
 
 **Functionaliteiten**
 
@@ -94,8 +96,9 @@ Bouw een React Native-app met twee schermen en een **statische lijst** met gegev
 
 ## Opdracht 3.3 - Navigeren vanuit een dynamische lijst
 
-Bouw een React Native-app met twee schermen en een lijst met notes of chess spots op het eerste scherm. Gebruik een
-**Stack Navigator** om tussen de twee schermen te navigeren.
+[Installeer](../guides/installatie.md#les-2) een nieuwe Expo app. <br> Bouw een React Native-app met twee schermen en
+een lijst met notes of chess spots op het eerste scherm. Gebruik een **Stack Navigator** om tussen de twee schermen te
+navigeren.
 
 **Functionaliteiten**
 
