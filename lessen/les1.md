@@ -15,7 +15,7 @@
 
 - Ternary & nullish coalescing operators
 - Optional chaining
-- Spread & rest
+- Spread operator & rest parameters
 - Destructuring Arrays & Objects
 - Arrow functions & this scope
 - Events
