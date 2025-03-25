@@ -98,7 +98,7 @@ Nuttige links: [View](https://reactnative.dev/docs/view), [Text](https://reactna
 ### Opdracht 2.3 - Wisselende achtergrondkleur
 
 [Installeer](../guides/installatie.md#les-2) een nieuwe Expo app. <br> Bouw vervolgens een React Native-app met een
-enkele **Button** die de achtergrondkleur van het scherm verandert in een \* \*vast patroon\*\*. Zodra de reeks kleuren
+enkele **Button** die de achtergrondkleur van het scherm verandert in een **vast patroon\*\*. Zodra de reeks kleuren
 is doorlopen, begint deze opnieuw.
 
 **Functionaliteiten**
