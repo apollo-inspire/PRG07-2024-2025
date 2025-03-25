@@ -10,3 +10,7 @@
 | Les 4 | Persistent data<br>Gebruikersinvoer                      | [Link](./lessen/les4.md) |
 | Les 5 | Maps<br>Location<br>Start eindopdracht                   | [Link](./lessen/les5.md) |
 | Les 6 | Demo extra's<br>Verder met eindopdracht                  | [Link](./lessen/les6.md) |
+
+# Notes
+
+Test
