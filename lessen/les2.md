@@ -114,8 +114,7 @@ is doorlopen, begint deze opnieuw.
 
 [Installeer](../guides/installatie.md#les-2) een nieuwe Expo app. <br> Bouw vervolgens een React Native-app die bij elke
 druk op een knop een lijst met quotes ophaalt en een willekeurige quote toont. Klik
-[hier](https://raw.githubusercontent.com/HR-CMGT/PRG07-2024-2025/refs/heads/main/assets/quotes.json) voor de quotes,
-klik vervolgens op "Raw" en kopieer dan de URL
+[hier](https://raw.githubusercontent.com/HR-CMGT/PRG07-2024-2025/refs/heads/main/assets/quotes.json) voor de quotes.
 
 **Functionaliteiten**
 
